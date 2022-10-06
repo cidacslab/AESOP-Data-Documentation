@@ -21,5 +21,8 @@ Contents
 .. toctree::
 
    health
-   usage
-   api
+   biological
+   pharmaceutical
+   social_media
+   social_economical
+   environmental
