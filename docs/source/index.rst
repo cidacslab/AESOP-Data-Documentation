@@ -1,19 +1,19 @@
 Welcome to AESOP data documentation!
 ===================================
 
-**Lumache** (/lu'make/) is a Python library for cooks and food lovers
-that creates recipes mixing random ingredients.
-It pulls data from the `Open Food Facts database <https://world.openfoodfacts.org/>`_
-and offers a *simple* and *intuitive* API.
+This documentation provides a description of all databases used in the `Alert-Early System of Outbreaks with Pandemic Potential (AESOP) <http://aesop.health/about-us>`_ project. 
 
-Lumache has its documentation hosted on Read the Docs.
+ÆSOP aims to be a data-driven surveillance system for the early alert of infectious disease outbreaks and their potential threats. To achieve this goal, the system will be built on the integration of existing multimodal data routinely collected from different sources, as well as on a set of analytical models for pandemic detection and transmission forecast.
 
-Check out the :doc:`usage` section for further information, including
-how to :ref:`installation` the project.
+ÆSOP relies on databases that report and describe health, biological, pharmaceutical, environmental, climate, human mobility, social media, and socioeconomic features of Brazil.
+
+In the next sections, we explain each database associated with this project, including the repository they are stored in, access permissions and an overview of the data files and their formats. In addition, we provide detailed descriptions of the methods used to collect the data, the computational processing, and the potential for data reuse. 
+
+Links, references, codes, program, or data processing workflow is provided to facilitate understanding or use the data.
 
 .. note::
 
-   This project is under active development.
+   This documentation is under active development.
 
 Contents
 --------
