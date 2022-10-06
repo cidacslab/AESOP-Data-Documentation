@@ -6,7 +6,7 @@ some text
 Respiratory infections
 ----------------------
 
-some text followed of other subsections
+some text followed by other subsections
 
 Arboviruses infections 
 ----------------------
