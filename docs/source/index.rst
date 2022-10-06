@@ -20,5 +20,6 @@ Contents
 
 .. toctree::
 
+   health
    usage
    api
