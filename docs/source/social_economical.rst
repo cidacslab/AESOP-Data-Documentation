@@ -17,6 +17,6 @@ The IBP index combines three factors:
 
 This data does not need to be updated and the complete documentation about the construction of the index is presented in Developing a small-area deprivation measure for Brazil: Technical report. The original data source and visualization can be found in Cidacs.
 
-.. rubric:: Footnotes
+.. rubric:: References
 
-.. [1] CIDACS. (2020, 09 01). IBP. Retrieved October 07, 2022, from <https://cidacs.bahia.fiocruz.br/ibp/painel/>
+.. [1] CIDACS. (2020, 09 01). IBP. Retrieved October 07, 2022, from https://cidacs.bahia.fiocruz.br/ibp/painel/.
