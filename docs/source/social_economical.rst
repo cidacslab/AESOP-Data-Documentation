@@ -44,40 +44,40 @@ Variable list for IBP database
 | ip_cd_d             | Localization code, in this case                    | Number | Uncategorized | Localization code, in this case it is |  
 |                     | it is the same as the city.                        |        |               | the same as the city.                 |
 +---------------------+----------------------------------------------------+--------+---------------+---------------------------------------+
-| ip_cd_m             | City code                                          | Number | Uncategorized | column 2                              | 
+| ip_cd_m             | City code                                          | Number | Uncategorized | city code                             | 
 +---------------------+----------------------------------------------------+--------+---------------+---------------------------------------+
-| ip_nm_f             | State name                                         | String | Uncategorized | column 2                              |
+| ip_nm_f             | State name                                         | String | Uncategorized | State name                            |
 +---------------------+----------------------------------------------------+--------+---------------+---------------------------------------+
-| ip_nm_r             | Region name                                        | String | Uncategorized | column 2                              | 
+| ip_nm_r             | Region name                                        | String | Uncategorized | Region name                           | 
 +---------------------+----------------------------------------------------+--------+---------------+---------------------------------------+
-| ip_cd_f             | State acronym                                      | String | Uncategorized | column 2                              |  
+| ip_cd_f             | State acronym                                      | String | Uncategorized | State acronym                         |  
 +---------------------+----------------------------------------------------+--------+---------------+---------------------------------------+
-| ip_vl_f             | State code                                         | Number | Uncategorized | column 2                              | 
+| ip_vl_f             | State code                                         | Number | Uncategorized | State code                            | 
 +---------------------+----------------------------------------------------+--------+---------------+---------------------------------------+
-| ip_vl_p             | Population according to IBGE (Brazilian            | Number | Uncategorized | column 2                              | 
-|                     | Institute of Geography and Statistics) 2010 census |        |               |                                       | 
+| ip_vl_p             | Population according to IBGE (Brazilian            | Number | Uncategorized | Population according to IBGE          |                   
+|                     | Institute of Geography and Statistics) 2010 census |        |               |  2010 census                          |                               
 +---------------------+----------------------------------------------------+--------+---------------+---------------------------------------+
-| ip_nm_m             | city name                                          | String | Uncategorized | column 2                              | 
+| ip_nm_m             | city name                                          | String | Uncategorized | City name                             | 
 +---------------------+----------------------------------------------------+--------+---------------+---------------------------------------+
-| ip_vl_n             | Value of the deprivation index                     | Number | Uncategorized | column 2                              | 
+| ip_vl_n             | Value of the deprivation index                     | Number | Uncategorized | Value of the deprivation index        | 
 +---------------------+----------------------------------------------------+--------+---------------+---------------------------------------+
-| ip_dcl_             | Decile of the deprivation index                    | Number | Uncategorized | column 2                              | 
+| ip_dcl_             | Decile of the deprivation index                    | Number | Uncategorized | Decile of the deprivation index       | 
 +---------------------+----------------------------------------------------+--------+---------------+---------------------------------------+
-| ip_qntl_n           | Quintile of the deprivation index                  | Number | Uncategorized | column 2                              | 
+| ip_qntl_n           | Quintile of the deprivation index                  | Number | Uncategorized | Quintile of the deprivation index     | 
 +---------------------+----------------------------------------------------+--------+---------------+---------------------------------------+
-| ip_prcnt_r          | Percentage of people with per capita               | Number | Uncategorized | column 2                              | 
-|                     | income below 1/2 minimum wage                      |        |               |                                       |
+| ip_prcnt_r          | Percentage of people with per capita               | Number | Uncategorized | Percentage of people with per capita  | 
+|                     | income below 1/2 minimum wage                      |        |               | income below 1/2 minimum wage         |
 +---------------------+----------------------------------------------------+--------+---------------+---------------------------------------+
-| ip_prcnt_d          | Percentage of illiterate people over               | Number | Uncategorized | column 2                              | 
-|                     | 7 years old                                        |        |               |                                       |
+| ip_prcnt_d          | Percentage of illiterate people over               | Number | Uncategorized | Percentage of illiterate people over  | 
+|                     | 7 years old                                        |        |               | 7 years old.                          |
 +---------------------+----------------------------------------------------+--------+---------------+---------------------------------------+
-| ip_prcnt_m          | Percentage of population in                        | Number | Uncategorized | column 2                              | 
-|                     | inappropriate homes.                               |        |               |                                       |
-+---------------------+----------------------------------------------------+-----------+------------+---------------------------------------+
+| ip_prcnt_m          | Percentage of population in                        | Number | Uncategorized | Percentage of population in           | 
+|                     | inappropriate homes.                               |        |               | inappropriate homes.                  |
++---------------------+----------------------------------------------------+--------+---------------+---------------------------------------+
 | ip_cd_c             | empty/unknown                                      |        |               |                                       | 
-+---------------------+----------------------------------------------------+-----------+------------+---------------------------------------+
++---------------------+----------------------------------------------------+--------+---------------+---------------------------------------+
 
-To facilitate visualisation, we have provided a data explorer that allows users to view the first rows the dataset along with metadata, including column descriptions, variable type, and variable harmonisation where applicable. This also allows broader re-use of this dataset, particularly since the original descriptors and data dictionaries are usually only available in Portuguese. Please, see https://pamepi.rondonia.fiocruz.br/en/ibp_en.html. 
+To facilitate visualisation, we have also provided a data explorer that allows users to view the first rows the dataset along with metadata, including column descriptions, variable type, and variable harmonisation where applicable. This also allows broader re-use of this dataset, particularly since the original descriptors and data dictionaries are usually only available in Portuguese. Please, see https://pamepi.rondonia.fiocruz.br/en/ibp_en.html. 
 
 .. note::
 
