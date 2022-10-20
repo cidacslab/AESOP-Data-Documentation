@@ -30,5 +30,5 @@ Any patient presenting with sudden onset of high fever (>38.5°C) and acute onse
 Suspect case:
 Any patient presenting with pruritic maculopapular rash and one of the following: fever, conjunctival hyperaemia/non-purulent conjunctivitis, arthralgia/polyarthralgia, Periarticular edema.
 
-In each disease, a patient will be assigned as a confirmed case of dengue, Zika or chinkungunya infections when any laboratory (PCR, serology, virus isolation) confirmed case OR, when laboratory analysis is not possible, any case with compatible clinical presentation AND with epidemiologic link to a confirmed case AND for which no other diagnosis was made.
+In each disease, a patient will be assigned as a confirmed case of dengue, Zika or chinkungunya infection when a laboratory test (PCR, serology, virus isolation) is confirmed OR, when laboratory analysis is not possible, when the case is compatible with clinical presentation AND with epidemiologic link to a confirmed case AND for which no other diagnosis was confirmed.
 
