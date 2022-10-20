@@ -40,6 +40,14 @@ Variable list for IBP database
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 To facilitate visualisation, we have provided a data explorer that allows users to view the first rows the dataset along with metadata, including column descriptions, variable type, and variable harmonisation where applicable. This also allows broader re-use of this dataset, particularly since the original descriptors and data dictionaries are usually only available in Portuguese. Please, see https://pamepi.rondonia.fiocruz.br/en/ibp_en.html. 
 
+.. tabularcolumns:: |p{1cm}|p{7cm}|
+
+.. csv-table:: IBP variables
+   :file: _files/Dicionarios-Ingles - IBP.csv
+   :header-rows: 1
+   :class: longtable
+   :widths: 1 1
+
 .. note::
 
   the `Platform for analytical models in epidemiology - PAMEpi <https://pamepi.rondonia.fiocruz.br/en/index_en.html.>`_ offers support in the documentation and collection of this database. More details in [3]_,[4]_ and [5]_.
