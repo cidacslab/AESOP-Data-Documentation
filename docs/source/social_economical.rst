@@ -38,20 +38,46 @@ The IBP dataset includes only 3 measures of deprivation excluding others like em
 
 Variable list for IBP database
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-To facilitate visualisation, we have provided a data explorer that allows users to view the first rows the dataset along with metadata, including column descriptions, variable type, and variable harmonisation where applicable. This also allows broader re-use of this dataset, particularly since the original descriptors and data dictionaries are usually only available in Portuguese. Please, see https://pamepi.rondonia.fiocruz.br/en/ibp_en.html. 
++---------------------+----------------------------------------------------+--------+---------------+---------------------------------------+
+| Original field name | Field label                                        | Type   | Category      | Description                           | 
++=====================+====================================================+========+===============+=======================================+
+| ip_cd_d             | Localization code, in this case                    | Number | Uncategorized | Localization code, in this case it is |  
+|                     | it is the same as the city.                        |        |               | the same as the city.                 |
++---------------------+----------------------------------------------------+--------+---------------+---------------------------------------+
+| ip_cd_m             | City code                                          | Number | Uncategorized | column 2                              | 
++---------------------+----------------------------------------------------+--------+---------------+---------------------------------------+
+| ip_nm_f             | State name                                         | String | Uncategorized | column 2                              |
++---------------------+----------------------------------------------------+--------+---------------+---------------------------------------+
+| ip_nm_r             | Region name                                        | String | Uncategorized | column 2                              | 
++---------------------+----------------------------------------------------+--------+---------------+---------------------------------------+
+| ip_cd_f             | State acronym                                      | String | Uncategorized | column 2                              |  
++---------------------+----------------------------------------------------+--------+---------------+---------------------------------------+
+| ip_vl_f             | State code                                         | Number | Uncategorized | column 2                              | 
++---------------------+----------------------------------------------------+--------+---------------+---------------------------------------+
+| ip_vl_p             | Population according to IBGE (Brazilian            | Number | Uncategorized | column 2                              | 
+|                     | Institute of Geography and Statistics) 2010 census |        |               |                                       | 
++---------------------+----------------------------------------------------+--------+---------------+---------------------------------------+
+| ip_nm_m             | city name                                          | String | Uncategorized | column 2                              | 
++---------------------+----------------------------------------------------+--------+---------------+---------------------------------------+
+| ip_vl_n             | Value of the deprivation index                     | Number | Uncategorized | column 2                              | 
++---------------------+----------------------------------------------------+--------+---------------+---------------------------------------+
+| ip_dcl_             | Decile of the deprivation index                    | Number | Uncategorized | column 2                              | 
++---------------------+----------------------------------------------------+--------+---------------+---------------------------------------+
+| ip_qntl_n           | Quintile of the deprivation index                  | Number | Uncategorized | column 2                              | 
++---------------------+----------------------------------------------------+--------+---------------+---------------------------------------+
+| ip_prcnt_r          | Percentage of people with per capita               | Number | Uncategorized | column 2                              | 
+|                     | income below 1/2 minimum wage                      |        |               |                                       |
++---------------------+----------------------------------------------------+--------+---------------+---------------------------------------+
+| ip_prcnt_d          | Percentage of illiterate people over               | Number | Uncategorized | column 2                              | 
+|                     | 7 years old                                        |        |               |                                       |
++---------------------+----------------------------------------------------+--------+---------------+---------------------------------------+
+| ip_prcnt_m          | Percentage of population in                        | Number | Uncategorized | column 2                              | 
+|                     | inappropriate homes.                               |        |               |                                       |
++---------------------+----------------------------------------------------+-----------+------------+---------------------------------------+
+| ip_cd_c             | empty/unknown                                      |        |               |                                       | 
++---------------------+----------------------------------------------------+-----------+------------+---------------------------------------+
 
-+------------+------------+-----------+------------+------------+-----------+------------+------------+-----------+------------+------------+-----------+
-| Dicionário/metadado da base de IBP - atualizado em 11/04/2022 | Header 2   | Header 3  | Header 1   | Header 2   | Header 3  | Header 1   | Header 2   | Header 3  | Header 1   | Header 2   | Header 3  |
-+============+============+===========+============+============+===========+============+============+===========+============+============+===========+
-| body row 1 | column 2   | column 3  | body row 1 | column 2   | column 3  | body row 1 | column 2   | column 3  | body row 1 | column 2   | column 3  |
-+------------+------------+-----------+------------+------------+-----------+------------+------------+-----------+------------+------------+-----------+
-| body row 1 | column 2   | column 3  | body row 1 | column 2   | column 3  | body row 1 | column 2   | column 3  | body row 1 | column 2   | column 3  |
-+------------+------------+-----------+------------+------------+-----------+------------+------------+-----------+------------+------------+-----------+
-| body row 1 | column 2   | column 3  | body row 1 | column 2   | column 3  | body row 1 | column 2   | column 3  | body row 1 | column 2   | column 3  |
-+------------+------------+-----------+------------+------------+-----------+------------+------------+-----------+------------+------------+-----------+
-| body row 1 | column 2   | column 3  | body row 1 | column 2   | column 3  | body row 1 | column 2   | column 3  | body row 1 | column 2   | column 3  |
-+------------+------------+-----------+------------+------------+-----------+------------+------------+-----------+------------+------------+-----------+
- 
+To facilitate visualisation, we have provided a data explorer that allows users to view the first rows the dataset along with metadata, including column descriptions, variable type, and variable harmonisation where applicable. This also allows broader re-use of this dataset, particularly since the original descriptors and data dictionaries are usually only available in Portuguese. Please, see https://pamepi.rondonia.fiocruz.br/en/ibp_en.html. 
 
 .. note::
 
