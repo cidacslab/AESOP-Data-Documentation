@@ -54,8 +54,8 @@ Variable list for IBP database
 +---------------------+----------------------------------------------------+--------+---------------+---------------------------------------+
 | ip_vl_f             | State code                                         | Number | Uncategorized | State code                            | 
 +---------------------+----------------------------------------------------+--------+---------------+---------------------------------------+
-| ip_vl_p             | Population according to IBGE (Brazilian            | Number | Uncategorized | Population according to IBGE          |                   
-|                     | Institute of Geography and Statistics) 2010 census |        |               |  2010 census                          |                               
+| ip_vl_p             | Population according to IBGE (Brazilian            | Number | Uncategorized | Population according to IBGE  2010    |
+|                     | Institute of Geography and Statistics) 2010 census |        |               | census                                |
 +---------------------+----------------------------------------------------+--------+---------------+---------------------------------------+
 | ip_nm_m             | city name                                          | String | Uncategorized | City name                             | 
 +---------------------+----------------------------------------------------+--------+---------------+---------------------------------------+
