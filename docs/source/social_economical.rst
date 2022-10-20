@@ -43,7 +43,7 @@ To facilitate visualisation, we have provided a data explorer that allows users 
 .. tabularcolumns:: |p{1cm}|p{7cm}|
 
 .. csv-table:: IBP variables
-   :file: _files/Dicionarios-Ingles - IBP.csv
+   :file: _files/Dicionario_Ingles_IBP.csv
    :header-rows: 1
    :class: longtable
    :widths: 1 1
