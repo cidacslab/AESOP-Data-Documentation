@@ -40,9 +40,8 @@ Variable list for IBP database
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 To facilitate visualisation, we have provided a data explorer that allows users to view the first rows the dataset along with metadata, including column descriptions, variable type, and variable harmonisation where applicable. This also allows broader re-use of this dataset, particularly since the original descriptors and data dictionaries are usually only available in Portuguese. Please, see https://pamepi.rondonia.fiocruz.br/en/ibp_en.html. 
 
-
 +------------+------------+-----------+------------+------------+-----------+------------+------------+-----------+------------+------------+-----------+
-| Header 1   | Header 2   | Header 3  | Header 1   | Header 2   | Header 3  | Header 1   | Header 2   | Header 3  | Header 1   | Header 2   | Header 3  |
+| Dicionário/metadado da base de IBP - atualizado em 11/04/2022 | Header 2   | Header 3  | Header 1   | Header 2   | Header 3  | Header 1   | Header 2   | Header 3  | Header 1   | Header 2   | Header 3  |
 +============+============+===========+============+============+===========+============+============+===========+============+============+===========+
 | body row 1 | column 2   | column 3  | body row 1 | column 2   | column 3  | body row 1 | column 2   | column 3  | body row 1 | column 2   | column 3  |
 +------------+------------+-----------+------------+------------+-----------+------------+------------+-----------+------------+------------+-----------+
