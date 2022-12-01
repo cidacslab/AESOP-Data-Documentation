@@ -21,6 +21,7 @@ Contents
 .. toctree::
 
    health
+   surveillance
    biological
    pharmaceutical
    social_media
