@@ -1,5 +1,5 @@
 .. image:: aesop_logo.png 
-   :height: 5p0x
+   :height: 50px
    :width: 100 px
    :scale: 10 %
    :alt: alternate text
