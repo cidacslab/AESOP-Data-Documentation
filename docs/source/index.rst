@@ -1,7 +1,7 @@
 .. image:: aesop_logo.png 
-   :height: 50px
+   :height: 5p0x
    :width: 100 px
-   :scale: 50 %
+   :scale: 10 %
    :alt: alternate text
    :align: right
 
