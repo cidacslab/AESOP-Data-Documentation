@@ -1,6 +1,8 @@
 Welcome to AESOP data documentation!
 ===================================
 
+.. image:: aesop.png
+
 This documentation provides a description of all databases used in the `Alert-Early System of Outbreaks with Pandemic Potential (AESOP) <http://aesop.health/about-us>`_ project. 
 
 ÆSOP aims to be a data-driven surveillance system for the early alert of infectious disease outbreaks and their potential threats. To achieve this goal, the system will be built on the integration of existing multimodal data routinely collected from different sources, as well as on a set of analytical models for pandemic detection and transmission forecast.
