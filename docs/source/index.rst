@@ -16,7 +16,6 @@ This documentation provides a description of all databases used in the `Alert-Ea
    
    Schematic overview of the AESOP data source.
 
-
 In the next sections, we explain each database associated with this project, including the repository they are stored in, access permissions and an overview of the data files and their formats. In addition, we provide detailed descriptions of the methods used to collect the data, the computational processing, and the potential for data reuse. 
 
 Links, references, codes, program, or data processing workflow is provided to facilitate understanding or use the data.
