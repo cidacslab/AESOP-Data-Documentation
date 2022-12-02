@@ -11,7 +11,7 @@ Description
 
 Acute Respiratory Infections are the third cause of mortality worldwide and are usually caused by virus or bacterial agents.
 
-The influenza A(H1N1) pandemic of 2009 highlighted the importance of collecting information about disease severity in a standardized manner and having historical data available for countries to assess current influenza seasons in the context of previous ones (1). Thus, since 2009, notification of all hospitalized cases of Severe Acute Respiratory Infection (SARI) is mandatory in Brazil. 
+The influenza A(H1N1) pandemic of 2009 highlighted the importance of collecting information about disease severity in a standardized manner and having historical data available for countries to assess current influenza seasons in the context of previous ones [1]_. Thus, since 2009, notification of all hospitalized cases of Severe Acute Respiratory Infection (SARI) is mandatory in Brazil. 
 
 Data on hospitalized SARI cases are inserted and collated in a centralized system, the "Sistema de Informação de Vigilância Epidemiológica da Gripe" (SIVEP-Gripe), which is under governance of the Ministry of Health (MoH).
 
@@ -35,7 +35,7 @@ Description
 ^^^^^^^^^^^
 Arbovirus (arthropod-borne virus) infection is an infection caused by a viral spread to humans (and/or other vertebrates) through the bite of a blood-feeding arthropods (eg. flies, mosquitoes, ticks, etc). There are more than 250 species of arbovirus, including dengue, Zika, chikungunya, West Nile, Yellow fever, and others.  An Arbovirus catalog is described `here <https://wwwn.cdc.gov/Arbocat/Default.aspx>`_.
 
-For the purposes of the AESOP project, we collected data of suspected Dengue, Zika and Chikungunya infections that were reported and are available in the `Notifiable Diseases Information System (SINAN). <https://portalsinan.saude.gov.br>`_. The notification of every suspected case of these 3 diseases is mandatory, and case definition are as follows:
+For the purposes of the AESOP project, we collected data of suspected Dengue, Zika and Chikungunya infections that were reported and are available in the `Notifiable Diseases Information System (SINAN) <https://portalsinan.saude.gov.br>`_. The notification of every suspected case of these 3 diseases is mandatory, and case definition are as follows:
 
 **Dengue:** 
 
@@ -54,4 +54,6 @@ Any patient presenting with pruritic maculopapular rash and one of the following
 
 In each disease, a patient will be assigned as a confirmed case of dengue, Zika or chinkungunya infection when a laboratory test (PCR, serology, virus isolation) is confirmed OR, when laboratory analysis is not possible, when the case is compatible with clinical presentation AND with epidemiologic link to a confirmed case AND for which no other diagnosis was confirmed.
 
+.. rubric:: References
 
+.. [1] PAHO. Operational Guidelines for Sentinel Severe Acute Respiratory Infection (SARI) Surveillance. September 2014. https://www.paho.org/hq/dmdocuments/2015/2015-cha-operational-guidelines-sentinel-sari.pdf
