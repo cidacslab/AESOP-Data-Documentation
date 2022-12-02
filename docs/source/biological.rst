@@ -58,7 +58,7 @@ Table 1 - Major pathogens and AMRs targeted in RPIP sequencing approach.
 |               |                         | Treponema denticola                                                                                    |
 |               |                         | Yersinia pestis                                                                                        |
 +---------------+-------------------------+--------------------------------------------------------------------------------------------------------+
-| Fungi         | 54                      | Alternaria alternata                                                                                   |
+| Fungi         | 54                      | Alternaria alternata<br>                                                                               |
 |               |                         | Candida auris                                                                                          |
 |               |                         | Exophiala dermatitidis                                                                                 |
 |               |                         | Purpureocillium lilacinum                                                                              |
