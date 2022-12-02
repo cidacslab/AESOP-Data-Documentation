@@ -1,6 +1,6 @@
 .. image:: aesop_logo.png 
    :height: 5cm
-   :width: 10cm
+   :width: 5cm
    :scale: 10 %
    :align: right
 
