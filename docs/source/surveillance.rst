@@ -18,11 +18,11 @@ Data on hospitalized SARI cases are inserted and collated in a centralized syste
 Following the Covid-19 pandemic, mild Influenza-like illness cases started to be reported on e-SUS Vigilância Epidemiológica (e-SUS-VE), a new national COVID-19 reporting system, also centralized and ran by the MoH. Although currently in use, reporting of mild cases will probably be discontinued as mitigation of the public health emergency caused by Covid-19 goes on.
 Both e-SUS-VE and SIVEP-Gripe include suspected and confirmed cases as reported by public health and private services, and case definitions for notification are:
 
-* Hospitalized SARI cases:
+**Hospitalized SARI cases**
 
 A hospitalized patient presenting with the acute onset of fever and cough OR sore throat AND with one of the following: acute respiratory distress, dyspnea, or O2 saturation < 95%. Any patient with the above symptoms and died, regardless of hospitalization.
 
-* Influenza-like illness mild cases:
+**Influenza-like illness mild cases**
 
 Any patient presenting with the acute onset of fever (ut to 5 days) and cough OR sore throat.
 All notified cases should go under laboratory investigation in order to ascertain the causative agent for confirming or discarding infectious diseases.
@@ -43,10 +43,12 @@ Suspect case:
 Any patient residing in (or having traveled to in the previous 14 days), an area with dengue or Aedes aegypti occurrence, and who presents with acute onset of fever (lasting up to 7 days) and 2 or more of the following symptoms: nausea/vomiting, rash, myalgia/arthralgia, headache, retro-orbital pain, petechiae, positive tourniquete test, leukopenia
 
 **Chikungunya**
+
 Suspect case:
 Any patient presenting with sudden onset of high fever (>38.5°C) and acute onset of arthralgia or severe arthritis not explained by other conditions, residing in (or having visited in the previous 14 days) areas with chikungunya transmission, or who has an epidemilogic link to a confirmed imported case
 
 **Zika**
+
 Suspect case:
 Any patient presenting with pruritic maculopapular rash and one of the following: fever, conjunctival hyperaemia/non-purulent conjunctivitis, arthralgia/polyarthralgia, Periarticular edema.
 
