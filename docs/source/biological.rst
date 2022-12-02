@@ -39,16 +39,17 @@ The molecular sensor of AESOP will generate dozens of terabytes of data. The dat
 All data will be stored in the AESOP HPC facility, and the raw sequences data will be held in other servers in Fiocruz. All the codes to perform the bioinformatics analysis, including the pipeline implementation, the statistical analysis, and the data visualization, will be maintained in the AESOP GitHub repository.
 
 Table 1 - Major pathogens and AMRs targeted in RPIP sequencing approach.
-| ------------- | ----------------------- | ------------------------------------------------------------------------------------------------------ |
+
++---------------+-------------------------+--------------------------------------------------------------------------------------------------------+
 | Pathogen type | Number of strains/genes | Examples                                                                                               |
-| ------------- | ----------------------- | ------------------------------------------------------------------------------------------------------ |
++===============+=========================+========================================================================================================+
 | Viruses       | 42                      | Coxsackievirus A                                                                                       |
 |               |                         | Human adenovirus B                                                                                     |
 |               |                         | Influenza A viruses                                                                                    |
 |               |                         | Rhinovirus                                                                                             |
 |               |                         | SARS coronavirus                                                                                       |
 |               |                         | SARS-CoV-2 (2019-nCoV)                                                                                 |
-| ------------- | ----------------------- | ------------------------------------------------------------------------------------------------------ |
++---------------+-------------------------+--------------------------------------------------------------------------------------------------------+
 | Bacteria      | 187                     | Nocardia nova                                                                                          |
 |               |                         | Ochrobactrum anthropi                                                                                  |
 |               |                         | Pseudomonas stutzeri                                                                                   |
@@ -56,18 +57,18 @@ Table 1 - Major pathogens and AMRs targeted in RPIP sequencing approach.
 |               |                         | Streptococcus agalactiae                                                                               |
 |               |                         | Treponema denticola                                                                                    |
 |               |                         | Yersinia pestis                                                                                        |
-| ------------- | ----------------------- | ------------------------------------------------------------------------------------------------------ |
++---------------+-------------------------+--------------------------------------------------------------------------------------------------------+
 | Fungi         | 54                      | Alternaria alternata                                                                                   |
 |               |                         | Candida auris                                                                                          |
 |               |                         | Exophiala dermatitidis                                                                                 |
 |               |                         | Purpureocillium lilacinum                                                                              |
 |               |                         | Schizophyllum commune                                                                                  |
 |               |                         | Trichosporon asahii                                                                                    |
-| ------------- | ----------------------- | ------------------------------------------------------------------------------------------------------ |
++---------------+-------------------------+--------------------------------------------------------------------------------------------------------+
 | AMRs          | 1218                    | Antibacterials (Aminoglycosides, Carbapenems, Fluoroquinolones)                                        |
 |               |                         | Antimycobacterials (First-line: Isoniazids, Pyrazinamides. Second-line: Ethionamides, Aminoglycosides) |
 |               |                         | Antivirals (Oseltamivir, Zanamivir, Peramivir, Laninamivir, Baloxavir)                                 |
-| ------------- | ----------------------- | ------------------------------------------------------------------------------------------------------ |
++---------------+-------------------------+--------------------------------------------------------------------------------------------------------+
 
 Limitations of Biological dataset
 ^^^^^^^^^^^^^^^^^^^^^^^^^^
