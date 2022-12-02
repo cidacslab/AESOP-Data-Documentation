@@ -1,7 +1,13 @@
+.. image:: aesop_logo.png 
+   :height: 100px
+   :width: 200 px
+   :scale: 50 %
+   :alt: alternate text
+   :align: right
+
 Welcome to AESOP data documentation!
 ===================================
 
-.. image:: aesop_logo.png
 
 This documentation provides a description of all databases used in the `Alert-Early System of Outbreaks with Pandemic Potential (AESOP) <http://aesop.health/about-us>`_ project. 
 
