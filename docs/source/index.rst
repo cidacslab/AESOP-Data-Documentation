@@ -10,7 +10,7 @@ This documentation provides a description of all databases used in the `Alert-Ea
 ÆSOP relies on databases that report and describe health, biological, pharmaceutical, environmental, climate, human mobility, social media, and socioeconomic features of Brazil.
 
 .. image:: data_sources.png 
-   :height: 8cm
+   :height: 6cm
    :width: 20cm
    :align: center
    

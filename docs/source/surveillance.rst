@@ -1,8 +1,6 @@
 Surveillance
 =====
 
-Ver um texto falando do DATASUS 
-
 Respiratory infections
 ----------------------
 
