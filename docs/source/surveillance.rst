@@ -6,7 +6,27 @@ Ver um texto falando do DATASUS
 Respiratory infections
 ----------------------
 
-some text followed by other subsections
+Description
+^^^^^^^^^^^
+
+Acute Respiratory Infections are the third cause of mortality worldwide and are usually caused by virus or bacterial agents.
+
+The influenza A(H1N1) pandemic of 2009 highlighted the importance of collecting information about disease severity in a standardized manner and having historical data available for countries to assess current influenza seasons in the context of previous ones (1). Thus, since 2009, notification of all hospitalized cases of Severe Acute Respiratory Infection (SARI) is mandatory in Brazil. 
+
+Data on hospitalized SARI cases are inserted and collated in a centralized system, the "Sistema de Informação de Vigilância Epidemiológica da Gripe" (SIVEP-Gripe), which is under governance of the Ministry of Health (MoH).
+
+Following the Covid-19 pandemic, mild Influenza-like illness cases started to be reported on e-SUS Vigilância Epidemiológica (e-SUS-VE), a new national COVID-19 reporting system, also centralized and ran by the MoH. Although currently in use, reporting of mild cases will probably be discontinued as mitigation of the public health emergency caused by Covid-19 goes on.
+Both e-SUS-VE and SIVEP-Gripe include suspected and confirmed cases as reported by public health and private services, and case definitions for notification are:
+
+* Hospitalized SARI cases:
+
+A hospitalized patient presenting with the acute onset of fever and cough OR sore throat AND with one of the following: acute respiratory distress, dyspnea, or O2 saturation < 95%. Any patient with the above symptoms and died, regardless of hospitalization.
+
+* Influenza-like illness mild cases:
+
+Any patient presenting with the acute onset of fever (ut to 5 days) and cough OR sore throat.
+All notified cases should go under laboratory investigation in order to ascertain the causative agent for confirming or discarding infectious diseases.
+
 
 Arboviruses infections 
 ----------------------
