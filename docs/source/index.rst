@@ -1,7 +1,7 @@
 .. image:: aesop_logo.png 
    :height: 5cm
    :width: 10cm
-   :align: left
+   :align: top
 
 Welcome to AESOP data documentation!
 =================================== 
