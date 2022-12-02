@@ -11,7 +11,7 @@ This documentation provides a description of all databases used in the `Alert-Ea
 
 .. image:: data_sources.png 
    :height: 5cm
-   :width: 10cm
+   :width: 15cm
    :align: center
 
 
