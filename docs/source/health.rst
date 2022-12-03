@@ -85,6 +85,15 @@ Author list
 ^^^^^^^^^^^
 
 - An icon {fab}`github`, Vinicius Oliveira
+
+<p> 
+  " text "
+  <span class="fab fa-github">
+    ::before
+  </span>
+  "Some text"  
+</p>
+
 Center for Data and Knowledge Integration for Health (CIDACS), Instituto Gonçalo Moniz, Fundação Oswaldo Cruz, Salvador, Brazil 
 
 .. rubric:: References
