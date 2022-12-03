@@ -84,15 +84,9 @@ Variable list for PHC database
 Author list
 ^^^^^^^^^^^
 
-- An icon {fab}`github`, Vinicius Oliveira
+.. rst-class:: fa fa-font-awesome
 
-<p> 
-  " text "
-  <span class="fab fa-github">
-    ::before
-  </span>
-  "Some text"  
-</p>
+- An icon {fab}`github`, Vinicius Oliveira
 
 Center for Data and Knowledge Integration for Health (CIDACS), Instituto Gonçalo Moniz, Fundação Oswaldo Cruz, Salvador, Brazil 
 
