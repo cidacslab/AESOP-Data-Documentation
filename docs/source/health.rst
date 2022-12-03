@@ -101,3 +101,5 @@ Author list
 
 [![name](https://github.com/cidacslab/AESOP-Data-Documentation/blob/main/docs/source/github-logo.png)](http://www.github.com/nomi811)
 
+[<img src="https://github.com/cidacslab/AESOP-Data-Documentation/blob/main/docs/source/github-logo.png">](http://example.com/)
+
