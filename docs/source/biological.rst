@@ -103,6 +103,7 @@ Table 1 - Major pathogens and AMRs targeted in RPIP sequencing approach.
 
 Limitations of Biological dataset
 ^^^^^^^^^^^^^^^^^^^^^^^^^^
+
 Due to logistics, the most significant limitation will be assessing remote areas in Brazil to collect biological samples. Difficult-to-access regions, which may be the origin centers of outbreaks, will be monitored using other AESOP data. However, we will focus efforts on collecting patient samples in larger city centers close to those locations. The sampling location choice will consider how connected these areas are, including information about the road, airports, and fluvial networks.
 
 .. rubric:: References
@@ -121,3 +122,10 @@ Due to logistics, the most significant limitation will be assessing remote areas
 
 **Contributors**
 
++------------------------+-----------------------------------------------------------------------------------+
+| Pedro Milet Meirelles  | Institute of Biology, Federal University of Bahia, Salvador, Brazil               | 
++                        +                                                                                   +
+|                        | National Institute for Interdisciplinary and Transdisciplinary Studies in Ecology |
++                        +                                                                                   +
+|                        | Evolution (IN-TREE), Salvador, Brazil                                             | 
++------------------------+-----------------------------------------------------------------------------------+    
