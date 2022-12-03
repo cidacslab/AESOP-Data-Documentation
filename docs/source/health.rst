@@ -88,7 +88,7 @@ Author list
 +-------------------+-----------------------------------------------------------------+
 | Vinicius Oliveira | Center for Data and Knowledge Integration for Health (CIDACS),  | 
 |                   | Instituto Gonçalo Moniz, Fundação Oswaldo Cruz, Salvador, Brazil|
-+-------------------|+----------------------------------------------------------------+    
++-------------------+-----------------------------------------------------------------+    
                     
 
 
