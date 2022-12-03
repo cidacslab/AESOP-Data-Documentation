@@ -81,17 +81,16 @@ Variable list for PHC database
 +-------------------------+-------------------------------------------+--------+---------------------------------------+------------------------------------------+-------------+
 
 
+.. rubric:: References
+
 Author list
 ^^^^^^^^^^^
++-------------------+-----------------------------------------------------------------+
+| Vinicius Oliveira | Center for Data and Knowledge Integration for Health (CIDACS),  | 
+|                   | Instituto Gonçalo Moniz, Fundação Oswaldo Cruz, Salvador, Brazil|
++-------------------|+----------------------------------------------------------------+    
+                    
 
-.. |fa-fort-awesome| raw:: html
 
-   <i class="fab fa-fort-awesome"></i>
 
-Here is some text |fa-fort-awesome| with the icon in the middle.
 
-- An icon {fab}`github`, Vinicius Oliveira
-
-Center for Data and Knowledge Integration for Health (CIDACS), Instituto Gonçalo Moniz, Fundação Oswaldo Cruz, Salvador, Brazil 
-
-.. rubric:: References
