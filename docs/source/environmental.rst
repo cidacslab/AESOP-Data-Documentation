@@ -59,5 +59,4 @@ Spatial and temporal in-situ data coverage. Modelling and Orbital data will fill
 
 .. [3] Yip, Cleo, Wen L. Chang, K. H. Yeung, and Ignatius T. S. Yu. Possible Meteorological Influence on the Severe Acute Respiratory Syndrome (SARS) Community Outbreak at Amoy Gardens, Hong Kong. Journal of Environmental Health 70, no. 3 (2007): 39–47. http://www.jstor.org/stable/26327426.
 
-.. [4] Matthew E. Falagas, George Theocharis, Alex Spanos, Lambrini A. Vlara, Evangelos A. Issaris, George Panos, George Peppas. Effect of meteorological variables on the incidence of respiratory tract infections, Respiratory Medicine, Volume 102, Issue 5,2008,Pages 733-737,ISSN 954-6111,
-https://doi.org/10.1016/j.rmed.2007.12.010.
+.. [4] Matthew E. Falagas, George Theocharis, Alex Spanos, Lambrini A. Vlara, Evangelos A. Issaris, George Panos, George Peppas. Effect of meteorological variables on the incidence of respiratory tract infections, Respiratory Medicine, Volume 102, Issue 5,2008,Pages 733-737,ISSN 954-6111, https://doi.org/10.1016/j.rmed.2007.12.010.
