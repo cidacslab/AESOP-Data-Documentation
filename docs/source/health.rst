@@ -91,10 +91,12 @@ Author list
 |                   | Instituto Gonçalo Moniz, Fundação Oswaldo Cruz, Salvador, Brazil|
 +-------------------+-----------------------------------------------------------------+    
 
-![github-logo](https://user-images.githubusercontent.com/45834356/205438348-1c7107ef-c199-463a-abb2-f23ec9c53f70.png)
-[Vinicius]
 
+[1]: Vinicius Oliveira
 
+---
+[![github-logo](https://user-images.githubusercontent.com/45834356/205438348-1c7107ef-c199-463a-abb2-f23ec9c53f70.png)][1]
+---
 
 
 
