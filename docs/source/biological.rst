@@ -33,23 +33,21 @@ Data-specific information
 
 The molecular sensor of AESOP will generate dozens of terabytes of data. The data types will be:
 
-	* Raw DNA short reads sequences data (.fastq): Fastq files have the DNA sequences per se and have each base pair quality score. This file type possesses the DNA sequences in 	    one line, the sequence identifier, the following line, and the quality score for each base. In AESOP, we will generate 2 million sequences for a pool of 100 individuals. 
-
-We will use the following sequencing approaches: 
+	* Raw DNA short reads sequences data (.fastq): Fastq files have the DNA sequences per se and have each base pair quality score. This file type possesses the DNA sequences in 	    one line, the sequence identifier, the following line, and the quality score for each base. In AESOP, we will generate 2 million sequences for a pool of 100 individuals. We will use the following sequencing approaches: 
 		i) Respiratory Pathogen ID/AMR Enrichment Panel (RPIP); and 
 		ii) Metatranscriptomics. The first several well-known pathogens, such as viruses, bacteria, fungi, and antimicrobial resistance genes (AMRs) are targeted (Table 1). In the latter, we will be able to identify new pathogens. 
 
-	* Processed DNA short reads sequences data (.fasta) - Artifacts from the sequencing process and host sequences will be removed. In fasta files, only the DNA sequences are present. This file type possesses in one line the sequence identifier the following line the DNA.
+	* Processed DNA short reads sequences data (.fasta): Artifacts from the sequencing process and host sequences will be removed. In fasta files, only the DNA sequences are present. This file type possesses in one line the sequence identifier the following line the DNA.
 	
-	* Assembled sequences (.fasta) - Complete and draft genomes or contigs composes of these files. This file type possesses in one line the sequence identifier the following line the DNA. The difference from the short reads file is that assembled sequences fasta files has fewer sequences but longer.
+	* Assembled sequences (.fasta): Complete and draft genomes or contigs composes of these files. This file type possesses in one line the sequence identifier the following line the DNA. The difference from the short reads file is that assembled sequences fasta files has fewer sequences but longer.
 
-	* Raw annotation files (.csv, .txt, .tsv) - Tabular data originated from the annotation software. One file is for taxonomic, and another for functional annotation. Usually, this type of file has four columns and hundreds of thousands of rows. All taxonomic or functional levels are provided in a single file.
+	* Raw annotation files (.csv, .txt, .tsv): Tabular data originated from the annotation software. One file is for taxonomic, and another for functional annotation. Usually, this type of file has four columns and hundreds of thousands of rows. All taxonomic or functional levels are provided in a single file.
 
-	* Processed annotation files (.csv, .txt, .tsv) - Processed tabular data to perform statistical analysis and visualization. Usually, this type of file has hundreds to dozens of thousands of columns and hundreds or thousands of rows, depending on the taxonomic or functional level of the analysis. Each taxonomic or functional level generates a single file.
+	* Processed annotation files (.csv, .txt, .tsv): Processed tabular data to perform statistical analysis and visualization. Usually, this type of file has hundreds to dozens of thousands of columns and hundreds or thousands of rows, depending on the taxonomic or functional level of the analysis. Each taxonomic or functional level generates a single file.
 
-	* Statistical analysis outputs (.csv, .txt, .tsv) - Tabular data containing the results from several statistical analyses. It depends on the performed analysis, but files usually have dozens of columns and hundreds of rows.
+	* Statistical analysis outputs (.csv, .txt, .tsv): Tabular data containing the results from several statistical analyses. It depends on the performed analysis, but files usually have dozens of columns and hundreds of rows.
 
-	* Visualization products (.png, .jpg, .tiff) - Figures generated, e.g., stacked bar, scatter plots, heatmaps, multivariate analysis biplots (PCA, nMDS, CCA).  
+	* Visualization products (.png, .jpg, .tiff): Figures generated, e.g., stacked bar, scatter plots, heatmaps, multivariate analysis biplots (PCA, nMDS, CCA).  
  
 All data will be stored in the AESOP HPC facility, and the raw sequences data will be held in other servers in Fiocruz. All the codes to perform the bioinformatics analysis, including the pipeline implementation, the statistical analysis, and the data visualization, will be maintained in the AESOP GitHub repository.
 
@@ -59,29 +57,47 @@ Table 1 - Major pathogens and AMRs targeted in RPIP sequencing approach.
 | Pathogen type | Number of strains/genes | Examples                                                                                               |
 +===============+=========================+========================================================================================================+
 | Viruses       | 42                      | Coxsackievirus A                                                                                       |
++               +                         +                                                                                                        +
 |               |                         | Human adenovirus B                                                                                     |
++               +                         +                                                                                                        +
 |               |                         | Influenza A viruses                                                                                    |
++               +                         +                                                                                                        +
 |               |                         | Rhinovirus                                                                                             |
++               +                         +                                                                                                        +
 |               |                         | SARS coronavirus                                                                                       |
++               +                         +                                                                                                        +
 |               |                         | SARS-CoV-2 (2019-nCoV)                                                                                 |
 +---------------+-------------------------+--------------------------------------------------------------------------------------------------------+
 | Bacteria      | 187                     | Nocardia nova                                                                                          |
++               +                         +                                                                                                        +
 |               |                         | Ochrobactrum anthropi                                                                                  |
++               +                         +                                                                                                        +
 |               |                         | Pseudomonas stutzeri                                                                                   |
++               +                         +                                                                                                        +
 |               |                         | Prevotella melaninogenica                                                                              |
++               +                         +                                                                                                        +
 |               |                         | Streptococcus agalactiae                                                                               |
++               +                         +                                                                                                        +
 |               |                         | Treponema denticola                                                                                    |
++               +                         +                                                                                                        +
 |               |                         | Yersinia pestis                                                                                        |
 +---------------+-------------------------+--------------------------------------------------------------------------------------------------------+
 | Fungi         | 54                      | Alternaria alternata<br>                                                                               |
++               +                         +                                                                                                        +
 |               |                         | Candida auris                                                                                          |
++               +                         +                                                                                                        +
 |               |                         | Exophiala dermatitidis                                                                                 |
++               +                         +                                                                                                        +
 |               |                         | Purpureocillium lilacinum                                                                              |
++               +                         +                                                                                                        +
 |               |                         | Schizophyllum commune                                                                                  |
++               +                         +                                                                                                        +
 |               |                         | Trichosporon asahii                                                                                    |
 +---------------+-------------------------+--------------------------------------------------------------------------------------------------------+
 | AMRs          | 1218                    | Antibacterials (Aminoglycosides, Carbapenems, Fluoroquinolones)                                        |
++               +                         +                                                                                                        +
 |               |                         | Antimycobacterials (First-line: Isoniazids, Pyrazinamides. Second-line: Ethionamides, Aminoglycosides) |
++               +                         +                                                                                                        +
 |               |                         | Antivirals (Oseltamivir, Zanamivir, Peramivir, Laninamivir, Baloxavir)                                 |
 +---------------+-------------------------+--------------------------------------------------------------------------------------------------------+
 
