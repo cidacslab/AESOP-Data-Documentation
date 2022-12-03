@@ -7,7 +7,7 @@ Brazilian deprivation index (IBP)
 Description
 ^^^^^^^^^^^
 
-It provides deprivation measures for each Brazilian municipality based on the 2010 Brazilian census data. It is used to evaluate health inequalities across the country. The 2010 Brazilian Census social and economic estimatives is the basis for calculating the deprivation measure, available at [1]_ and [2]_. 
+It provides deprivation measures for each Brazilian municipality based on the 2010 Brazilian census data. It is used to evaluate health inequalities across the country. The 2010 Brazilian Census social and economic estimatimations are the basis for calculating the deprivation measure, available at [1]_ and [2]_. 
 
 The IBP index combines three factors: 
 
@@ -41,7 +41,8 @@ Variable list for IBP database
 +---------------------+----------------------------------------------------+--------+---------------+---------------------------------------+
 | Original field name | Field label                                        | Type   | Category      | Description                           | 
 +=====================+====================================================+========+===============+=======================================+
-| ip_cd_d             | Localization code, in this case                    | Number | Uncategorized | Localization code, in this case it is |  
+| ip_cd_d             | Localization code, in this case                    | Number | Uncategorized | Localization code, in this case it is | 
++                     +                                                    +        +               +                                       +  
 |                     | it is the same as the city.                        |        |               | the same as the city.                 |
 +---------------------+----------------------------------------------------+--------+---------------+---------------------------------------+
 | ip_cd_m             | City code                                          | Number | Uncategorized | city code                             | 
@@ -55,6 +56,7 @@ Variable list for IBP database
 | ip_vl_f             | State code                                         | Number | Uncategorized | State code                            | 
 +---------------------+----------------------------------------------------+--------+---------------+---------------------------------------+
 | ip_vl_p             | Population according to IBGE (Brazilian            | Number | Uncategorized | Population according to IBGE  2010    |
++                     +                                                    +        +               +                                       +
 |                     | Institute of Geography and Statistics) 2010 census |        |               | census                                |
 +---------------------+----------------------------------------------------+--------+---------------+---------------------------------------+
 | ip_nm_m             | city name                                          | String | Uncategorized | City name                             | 
@@ -66,6 +68,7 @@ Variable list for IBP database
 | ip_qntl_n           | Quintile of the deprivation index                  | Number | Uncategorized | Quintile of the deprivation index     | 
 +---------------------+----------------------------------------------------+--------+---------------+---------------------------------------+
 | ip_prcnt_r          | Percentage of people with per capita               | Number | Uncategorized | Percentage of people with per capita  | 
++                     +                                                    +        +               +                                       +   
 |                     | income below 1/2 minimum wage                      |        |               | income below 1/2 minimum wage         |
 +---------------------+----------------------------------------------------+--------+---------------+---------------------------------------+
 | ip_prcnt_d          | Percentage of illiterate people over               | Number | Uncategorized | Percentage of illiterate people over  | 
