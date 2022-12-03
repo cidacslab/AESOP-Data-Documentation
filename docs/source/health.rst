@@ -94,9 +94,8 @@ Author list
 
 [1]: Vinicius Oliveira
 
----
-´![github-logo](https://github.com/cidacslab/AESOP-Data-Documentation/blob/main/docs/source/github-logo.png)´[1]
----
+![github-logo](https://github.com/cidacslab/AESOP-Data-Documentation/blob/main/docs/source/github-logo.png)[1]
+
 
 
 
