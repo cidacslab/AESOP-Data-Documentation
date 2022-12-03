@@ -83,8 +83,8 @@ Variable list for PHC database
 
 .. rubric:: References
 
-Author list
-^^^^^^^^^^^
+**Contributors**
+
 +-------------------+-----------------------------------------------------------------+
 | Vinicius Oliveira | Center for Data and Knowledge Integration for Health (CIDACS),  | 
 +                   +                                                                 +
