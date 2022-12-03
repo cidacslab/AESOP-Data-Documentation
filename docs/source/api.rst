@@ -5,3 +5,5 @@ API
    :toctree: generated
 
    lumache
+
+.. rst-class:: fa fa-font-awesome
