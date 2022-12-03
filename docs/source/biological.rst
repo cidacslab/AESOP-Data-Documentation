@@ -33,7 +33,9 @@ Data-specific information
 
 The molecular sensor of AESOP will generate dozens of terabytes of data. The data types will be:
 
-	* Raw DNA short reads sequences data (.fastq) - Fastq files have the DNA sequences per se and have each base pair quality score. This file type possesses the DNA sequences in 	    one line, the sequence identifier, the following line, and the quality score for each base. In AESOP, we will generate 2 million sequences for a pool of 100 individuals. We will use the following sequencing approaches: 
+	* Raw DNA short reads sequences data (.fastq): Fastq files have the DNA sequences per se and have each base pair quality score. This file type possesses the DNA sequences in 	    one line, the sequence identifier, the following line, and the quality score for each base. In AESOP, we will generate 2 million sequences for a pool of 100 individuals. 
+
+We will use the following sequencing approaches: 
 		i) Respiratory Pathogen ID/AMR Enrichment Panel (RPIP); and 
 		ii) Metatranscriptomics. The first several well-known pathogens, such as viruses, bacteria, fungi, and antimicrobial resistance genes (AMRs) are targeted (Table 1). In the latter, we will be able to identify new pathogens. 
 
