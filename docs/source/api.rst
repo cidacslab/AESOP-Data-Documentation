@@ -6,4 +6,3 @@ API
 
    lumache
 
-.. rst-class:: fa fa-font-awesome

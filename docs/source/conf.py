@@ -40,5 +40,9 @@ html_logo = 'aesop_logo.png'
 
 htmlhelp_basename = 'TableswithSphinxdoc'
 
+html_js_files = [
+    'https://kit.fontawesome.com/##########.js',
+]
+
 # -- Options for EPUB output
 epub_show_urls = 'footnote'
