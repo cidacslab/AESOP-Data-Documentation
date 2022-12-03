@@ -7,18 +7,46 @@ Primary Health Care (PHC)
 Description
 ^^^^^^^^^^^
 
+Primary Healthcare Encounters (PHCE) have been used in many countries as early warning and sentinel surveillance of disease outbreaks.
+
+Data on primary healthcare encounters (PHCE) for Brazil were extracted from the national information system for primary healthcare (SISAB) maintained by the Ministry of  Health (MoH). SISAB is a decentralized system; every Brazilian city runs a local version of it, sending monthly automated reports to the MoH. Since 2016, its use has become mandatory for receiving federal funds for PHC. As of today, 12 million PHCE are being reported monthly. 
+
+Reporting to SISAB requires classifying the Reason for Encounter (REF) using the International Classification of Disease 10th edition (ICD-10) or the International Classification of Primary Care (ICPC-2).
+
+We included a broad set of symptoms, syndromes, and diagnostics possibly related to influenza or COVID-19 in the Upper Respiratory Infection (URI) group in order to develop a warning system with high sensitivity.
+
 Data access information
 ^^^^^^^^^^^^^^^^^^^^^^^
+
+Data is open access in the MoH websites, particularly on the following sites: 
+
+- https://sisaps.saude.gov.br/painelsaps/
+- https://sisab.saude.gov.br/
 
 Methods of data collection
 ^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+Data is collected on the report generation systems in the abovementioned websites. We developed webscrapping bots to collect the data we are interested in.
+
+Data is updated monthly by the Ministry of Health and we are also harvesting it on monthly basis. Beginning in 2023 we will harvest the data on weekly basis. 
+
 Data-specific information
 ^^^^^^^^^^^^^^^^^^^^^^^^^
 
+Data is one dataset where each line is corresponds to one brazilian city in one month of the studied period. The variables are city population, location, number of PHC teams and facilities and the number of PHCE in each group of interest on that month . 
 
 Limitations of PHC dataset
 ^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+Currently this dataset has a few relevant limitations, that will probably be solved in the next couple of years.
+
+One limitation is the availability of data. In Brazil 49.2% of the cities report full usage of the standard electronic health record, a scenario that would allow health authorities to monitor the whole city weekly. 
+
+The other 50.8% use either paper based records or non-standard software, implying that information can be entered in local SISAB with up to forty days of delay for routine billing, making it useless to support early warning systems. MoH also limits the availability of data, releasing reports for public access with 3 months of delay and reporting only monthly cases by city. Weekly reports by facility with no delay would be feasible with current MoH infodata structure, and would greatly support local usage of this data for health surveillance.
+
+Finally, it is essential to note that SISAB was designed for governance and accountability purposes. Thus it does not carry the entire patient’s electronic health record. 
+
+Detailed information on symptoms, tests, and treatments is unavailable at this level, leading to imprecision in classifying cases. Disease codes could suffice for an early warning, but more information will be needed for outbreak investigation. 
 
 
 Variable list for PHC database
