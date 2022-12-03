@@ -92,18 +92,3 @@ Author list
 +-------------------+-----------------------------------------------------------------+    
 
 
-
-
-![github-logo](https://github.com/cidacslab/AESOP-Data-Documentation/blob/main/docs/source/github-logo.png)[1]
-
-
-<a href="https://www.linkedin.com/in/yushi95/"><img align="left" src=".../source/github-logo.png" alt="Yu Shi | LinkedIn" width="21px"/></a>
-
-
-[![name](https://github.com/cidacslab/AESOP-Data-Documentation/blob/main/docs/source/github-logo.png)](http://www.github.com/nomi811)
-
-[<img src="github-logo.png">](http://example.com/)
-
-<a href="https://stackoverflow.com/"><img src="https://github.com/cidacslab/AESOP-Data-Documentation/blob/main/docs/source/github-logo.png></img></a>
-
-
