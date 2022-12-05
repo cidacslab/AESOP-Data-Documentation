@@ -15,6 +15,20 @@ Reporting to SISAB requires classifying the Reason for Encounter (REF) using the
 
 We included a broad set of symptoms, syndromes, and diagnostics possibly related to influenza or COVID-19 in the Upper Respiratory Infection (URI) group in order to develop a warning system with high sensitivity.
 
+ICPC codes used are on the table below. ICD-10 codes to the same concepts were mapped to ICPC-2 .
+
+===  ====================
+A03  Fever
+R05  Cough
+R07  Sneeze
+R08  Other respiratory symptoms
+R74  Upper Respiratory Infection
+R76  Amigdalitis
+R77  Laringitis
+R80  Influenza
+R83  Other respiratory infections
+===  ====================
+
 Data access information
 ^^^^^^^^^^^^^^^^^^^^^^^
 
