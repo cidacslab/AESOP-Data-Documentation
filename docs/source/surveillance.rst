@@ -40,9 +40,10 @@ Methods of data collection
 A python code is available on our PAMEpi's GitHub directory to download the FSdb and SARIdb data from the OpenDatasus, see details in [4]_.
 
 Alternatively, FSdb can be downloaded direct from the OpenDatasus links, for the years 2020 to 2022:
-* https://opendatasus.saude.gov.br/dataset/notificacoes-de-sindrome-gripal-leve-2020,
-* https://opendatasus.saude.gov.br/dataset/notificacoes-de-sindrome-gripal-leve-2021,
-* https://opendatasus.saude.gov.br/dataset/notificacoes-de-sindrome-gripal-leve-2022.
+
+	* https://opendatasus.saude.gov.br/dataset/notificacoes-de-sindrome-gripal-leve-2020,
+	* https://opendatasus.saude.gov.br/dataset/notificacoes-de-sindrome-gripal-leve-2021,
+	* https://opendatasus.saude.gov.br/dataset/notificacoes-de-sindrome-gripal-leve-2022.
 
 And SARIdb can be downloaded from OpenDatasus links as shown in https://github.com/cidacslab/AESOP-Data-Documentation/blob/main/Data%20Collection/SRAG.ipynb, for the years 2009 up to 2022.
 
