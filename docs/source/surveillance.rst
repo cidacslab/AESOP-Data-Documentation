@@ -65,7 +65,7 @@ Every case in SARI will have a final classification given by the epidemiological
 Variable list
 ^^^^^^^^^^^^^^
 
-Given the extensive number of variables, we refer to https://pamepi.rondonia.fiocruz.br/en/sg_en.html and https://pamepi.rondonia.fiocruz.br/en/srag_en.html for a whole descriptions of the FS and SARI databases.  
+Given the extensive number of variables, we refer to https://pamepi.rondonia.fiocruz.br/en/sg_en.html and https://pamepi.rondonia.fiocruz.br/en/srag_en.html for a whole descriptions of the FS and SARI databases [5]and [6]_.  
 
 
 Arboviruses infections 
@@ -94,6 +94,10 @@ Any patient presenting with pruritic maculopapular rash and one of the following
 
 In each disease, a patient will be assigned as a confirmed case of dengue, Zika or chinkungunya infection when a laboratory test (PCR, serology, virus isolation) is confirmed OR, when laboratory analysis is not possible, when the case is compatible with clinical presentation AND with epidemiologic link to a confirmed case AND for which no other diagnosis was confirmed.
 
+.. note::
+
+  the `Platform for analytical models in epidemiology - PAMEpi <https://pamepi.rondonia.fiocruz.br/en/index_en.html.>`_ offers support in the documentation and collection of this database. More details in [4]_, [5]_ and [6]_.
+
 .. rubric:: References
 
 .. [1] PAHO. Operational Guidelines for Sentinel Severe Acute Respiratory Infection (SARI) Surveillance. September 2014. https://www.paho.org/hq/dmdocuments/2015/2015-cha-operational-guidelines-sentinel-sari.pdf
@@ -103,3 +107,8 @@ In each disease, a patient will be assigned as a confirmed case of dengue, Zika 
 .. [3] Ministério da Saúde. Open Datasus. Banco de dados SRAG. Retrieved 04 25, 2021, from https://opendatasus.saude.gov.br/dataset/bd-srag-2021/resource/42bd5e0e-d61a-4359-942e-ebc83391a137, https://opendatasus.saude.gov.br/dataset/bd-srag-2021
 
 .. [4] Platform For Analytical Modelis in Epidemiology. (2022). PAMepi/PAMepi-scripts-datalake: v1.0.0 (v1.0.0). GitHub directory: https://github.com/PAMepi/PAMepi_scripts_datalake.git. Zenodo. . https://doi.org/10.5281/zenodo.6384641. Accessed: February 25, 2022.
+
+.. [5] Platform for analytical models in epidemiology - PAMEpi. https://pamepi.rondonia.fiocruz.br/en/index_en.html. Accessed: February 25, 2022.
+
+.. [6] da Silva, N.B., Valencia, L.I.O., Ferreira, A., Pereira, F.A., de Oliveira, G.L., Oliveira, P.F., Rodrigues, M.S., Ramos, P.I. and Oliveira, J.F., 2022. Brazilian COVID-19 data streaming. arXiv preprint arXiv:2205.05032.
+
