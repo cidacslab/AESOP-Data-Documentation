@@ -9,7 +9,7 @@ Description
 
 Primary Healthcare Encounters (PHCE) have been used in many countries as early warning and sentinel surveillance of disease outbreaks.
 
-Data on primary healthcare encounters (PHCE) for Brazil were extracted from the national information system for primary healthcare (SISAB) maintained by the Ministry of  Health (MoH). SISAB is a decentralized system; every Brazilian city runs a local version of it, sending monthly automated reports to the MoH. Since 2016, its use has become mandatory for receiving federal funds for PHC. As of today, 12 million PHCE are being reported monthly. 
+Data of PHCE for Brazil were extracted from the national information system for primary healthcare (SISAB) maintained by the Ministry of  Health (MoH). SISAB is a decentralized system; every Brazilian city runs a local version of it, sending monthly automated reports to the MoH. Since 2016, its use has become mandatory for receiving federal funds for PHC. As of today, 12 million PHCE are being reported monthly. 
 
 Reporting to SISAB requires classifying the Reason for Encounter (REF) using the International Classification of Disease 10th edition (ICD-10) or the International Classification of Primary Care (ICPC-2).
 
@@ -40,14 +40,14 @@ Data is open access in the MoH websites, particularly on the following sites:
 Methods of data collection
 ^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-Data is collected on the report generation systems in the abovementioned websites. We developed webscrapping bots to collect the data we are interested in.
+Data is collected on the report generation systems in the above-mentioned websites. We developed web-scrapping bots to collect the data we are interested in.
 
 Data is updated monthly by the Ministry of Health and we are also harvesting it on monthly basis. Beginning in 2023 we will harvest the data on weekly basis. 
 
 Data-specific information
 ^^^^^^^^^^^^^^^^^^^^^^^^^
 
-Data is one dataset where each line is corresponds to one brazilian city in one month of the studied period. The variables are city population, location, number of PHC teams and facilities and the number of PHCE in each group of interest on that month . 
+Data is one dataset where each line is corresponds to one Brazilian city in one month of the studied period. The variables are city population, location, number of PHC teams and facilities and the number of PHCE in each group of interest on that month . 
 
 Limitations of PHC dataset
 ^^^^^^^^^^^^^^^^^^^^^^^^^^
