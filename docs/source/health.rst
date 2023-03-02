@@ -184,7 +184,6 @@ Variable list for PHC Bahia database
 +-------------------------+-------------------------------------------+--------+---------------------------------------+------------------------------------------+-------------+
 
 
-
 .. rubric:: References
 
 V.A. Oliveira , A.P. Sironi, I. Marcilio, P.T.V. Florentino, T. C. Silva, R. F. Ortiz, T. M. Machado, G.O. Penna, M.E. Barreto, M. B. Netto,  Syndromic detection of upper respiratory infections in Primary Healthcare as a candidate for Covid-19 early warning in Brazil. A retrospective ecological study. Preprint Available at SSRN: http://dx.doi.org/10.2139/ssrn.4364869, 2023.
