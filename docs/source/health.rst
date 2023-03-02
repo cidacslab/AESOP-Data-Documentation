@@ -15,7 +15,7 @@ Reporting to SISAB requires classifying the Reason for Encounter (REF) using the
 
 We included a broad set of symptoms, syndromes, and diagnostics possibly related to influenza or COVID-19 in the Upper Respiratory Infection (URI) group in order to develop a warning system with high sensitivity.
 
-ICPC codes used are on the table below. ICD-10 codes to the same concepts were mapped to ICPC-2 .
+ICPC codes used are on the table below. ICD-10 codes to the same concepts were mapped to ICPC-2. The complete list of codes can be found in our recent preprint manuscript (https://dx.doi.org/10.2139/ssrn.4364869).  
 
 ===  ====================
 A03  Fever
@@ -121,6 +121,73 @@ Variable list for PHC database
 +-------------------------+-------------------------------------------+--------+---------------------------------------+------------------------------------------+-------------+
 | dengue                  | Confounding arboviruses                   | Number | Uncategorized                         | Confounding arboviruses                  | SISAB       |
 +-------------------------+-------------------------------------------+--------+---------------------------------------+------------------------------------------+-------------+
+
+Dashboard PHC Dataset
+^^^^^^^^^^^^^^^^^^^^^^^^^
+As the open-source database is aggregated by month, and such delay could hinder an early detection signal of a possible outbreak, for the beta version of the dashboard we used the SISAB database from Bahia. In collaboration with the Bahia Health Department, we obtained the individualized registers from the 417 municipalities in the state. 
+
+The database is uploaded in a secure computational environment from Fiocruz, monitored by protection policies non-identified database. In this area, the reasons for encounters (see Description) are aggregated by **municipalities and epidemiological week**. 
+
+The present dataset contains temporal information of total encounters and those related to Upper Respiratory Infection (URI) between January 2017 and December 2022.  
+
+The presente data contains the estimates from the Exceeding cases (GLM model). Upper Respiratory Infection (URI) number of encounters, rate and ratio.   
+Additional information from each municipality is included in this dataset, including socioeconomic data (Brazilian Deprivation Index strata, index for municipal level development [IDHM], and gross domestic product, infant mortality), as well as education levels (% of adult population that completed primary education). We also included the geographic coordinates and population from each municipality.   
+ 
+
+Variables from this dataset are described below: 
+
+Variable list for PHC Bahia database
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
++-------------------------+-------------------------------------------+--------+---------------------------------------+------------------------------------------+-------------+
+| Original field name     | Field label                               | Type   | Category                              | Description                              | DB Source   |        
++=========================+===========================================+========+=======================================+==========================================+=============+
+| state                   | States and Federal District               | String | Uncategorized                         | States and Federal District              | SISAB       | 
++-------------------------+-------------------------------------------+--------+---------------------------------------+------------------------------------------+-------------+
+| co_ibge                 | City code                                 | Number | Uncategorized                         | City code                                | IBGE        |
++-------------------------+-------------------------------------------+--------+---------------------------------------+------------------------------------------+-------------+
+| city                    | City name                                 | String | Uncategorized                         | City name                                | SISAB       |
++-------------------------+-------------------------------------------+--------+---------------------------------------+------------------------------------------+-------------+
+| long                    | Longitude                                 | Number | Uncategorized                         | Longitude                       | IBGE 
++-------------------------+-------------------------------------------+--------+---------------------------------------+------------------------------------------+-------------+
+| lat                     | Latitude                                  | Number | Uncategorized                         | Latitude                         | IBGE        | 
++-------------------------+-------------------------------------------+--------+---------------------------------------+------------------------------------------+-------------+
+| date_week               | Epidemiological week                      | date   | Uncategorized                         | Epidemiological week                                     | SISAB       |
++-------------------------+-------------------------------------------+--------+---------------------------------------+--------------------------------
+----------+-------------+
+| all_cases               | Total PHC encounters                      | Number | Uncategorized                         | Total PHC encounters              | SISAB       |
++-------------------------+-------------------------------------------+--------+---------------------------------------+------------------------------------------+-------------+
+| uri_cases               | Upper Respiratory Infections              | Number | Uncategorized                         | Upper Respiratory Infections    | SISAB       |
++-------------------------+-------------------------------------------+--------+---------------------------------------+------------------------------------------+-------------+
+| uri_per_population      | URI rate                                  | Number | Uncategorized                         | URI rate                       | SISAB       |
++-------------------------+-------------------------------------------+--------+---------------------------------------+------------------------------------------+-------------+
+| uri_ratio               | Uri ratio                                 | Number | Uncategorized                         | Uri ratio (URI/Total)             | SISAB       |
++-------------------------+-------------------------------------------+--------+---------------------------------------+------------------------------------------+-------------+
+| observed_number         | Observed number of URI (GLM)             | Number | Uncategorized                          | Observed number of URI (GLM)          | SISAB       | 
++-------------------------+-------------------------------------------+--------+---------------------------------------+------------------------------------------+-------------+
+| exceeds_threshold       |  Exceeding threshold                      | Number | Uncategorized                         | Exceeding number from threshold (GLM)   | SISAB       |
++-------------------------+-------------------------------------------+--------+---------------------------------------+------------------------------------------+-------------+
+| upper_bound_threshold   | Upper Bound Threshold                    | Number  | Uncategorized                         | Upper Bound Threshold (GLM)     | SISAB       |
++-------------------------+-------------------------------------------+--------+---------------------------------------+--------------------------------
+----------+-------------+
+| percent_excess_higher_estimate  | Percentage Exceeding             | Number | Uncategorized                          | Percentage Exceeding from threshold   | SISAB       |
++-------------------------+-------------------------------------------+--------+---------------------------------------+------------------------------------------+-------------+
+| color_code              | Color code                                 | string | Categorized                           | Color code of signal detection           | SISAB      | 
++-------------------------+-------------------------------------------+--------+---------------------------------------+------------------------------------------+-------------+
+| population              | Population                                 | Number | Uncategorized                         | Estimated population           | IBGE       |
++-------------------------+-------------------------------------------+--------+---------------------------------------+------------------------------------------+-------------+
+| ibp        | Brazilian Deprivation Index stratas                    | Number | Categorized                            | Brazilian Deprivation Index stratas      | e-Gestor APS|
++-------------------------+-------------------------------------------+--------+---------------------------------------+--------------------------------
+----------+-------------+
+| scholarity             | education level                            | Number | Uncategorized                          | % adult population that completed primary education        | IBGE       |
++-------------------------+-------------------------------------------+--------+---------------------------------------+------------------------------------------+-------------+
+| infant_mortality         | % Infant mortality                        | Number | Uncategorized                         | % of infant mortality 
+| SIM       |
++-------------------------+-------------------------------------------+--------+---------------------------------------+------------------------------------------+-------------+
+| idhm                     | Index for Municipal Level Development       | Number | Uncategorized                       | Index for Municipal Level Development  | IBGE        |
++-------------------------+-------------------------------------------+--------+---------------------------------------+--------------------------------
+
+
 
 
 .. rubric:: References
