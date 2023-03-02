@@ -162,25 +162,25 @@ Variable list for PHC Bahia database
 +-------------------------+-------------------------------------------+--------+---------------------------------------+------------------------------------------+-------------+
 | uri_ratio               | Uri ratio                                 | Number | Uncategorized                         | Uri ratio (URI/Total)             | SISAB       |
 +-------------------------+-------------------------------------------+--------+---------------------------------------+------------------------------------------+-------------+
-| observed_number         | Observed number of URI (GLM)             | Number | Uncategorized                          | Observed number of URI (GLM)          | SISAB       | 
+| observed_number         | Observed number of URI (GLM)              | Number | Uncategorized                         | Observed number of URI (GLM)          | SISAB       | 
 +-------------------------+-------------------------------------------+--------+---------------------------------------+------------------------------------------+-------------+
-| exceeds_threshold       |  Exceeding threshold                      | Number | Uncategorized                         | Exceeding number from threshold (GLM)   | SISAB        |
+| exceeds_threshold       |  Exceeding threshold                      | Number | Uncategorized                         | Exceeding number from threshold (GLM) | SISAB        |
 +-------------------------+-------------------------------------------+--------+---------------------------------------+------------------------------------------+-------------+
-| upper_bound_threshold   | Upper Bound Threshold                    | Number  | Uncategorized                         | Upper Bound Threshold (GLM)     | SISAB       |
+| upper_bound_threshold   | Upper Bound Threshold                     | Number | Uncategorized                         | Upper Bound Threshold (GLM)     | SISAB       |
 +-------------------------+-------------------------------------------+--------+---------------------------------------+------------------------------------------+-------------+
-| percent_excess_higher_estimate  | Percentage Exceeding             | Number | Uncategorized                          | Percentage Exceeding from threshold   | SISAB       |
+| percent_excess_higher   | Percentage Exceeding                      | Number | Uncategorized                         | Percentage Exceeding from threshold | SISAB       |
 +-------------------------+-------------------------------------------+--------+---------------------------------------+------------------------------------------+-------------+
-| color_code              | Color code                                 | string | Categorized                           | Color code of signal detection           | SISAB      | 
+| color_code              | Color code                                | string | Categorized                           | Color code of signal detection           | SISAB      | 
 +-------------------------+-------------------------------------------+--------+---------------------------------------+-----------------------------------------+-------------+
-| population              | Population                                 | Number | Uncategorized                         | Estimated population           | IBGE       |
+| population              | Population                                | Number | Uncategorized                         | Estimated population            | IBGE       |
 +-------------------------+-------------------------------------------+--------+---------------------------------------+------------------------------------------+-------------+
-| ibp        | Brazilian Deprivation Index stratas                    | Number | Categorized                            | Brazilian Deprivation Index stratas      | CIDACS     |
+| ibp                     | Brazilian Deprivation Index stratas       | Number | Categorized                           | Brazilian Deprivation Index stratas | CIDACS     |
 +-------------------------+-------------------------------------------+--------+---------------------------------------+------------------------------------------+-------------+
-| scholarity             | education level                            | Number | Uncategorized                          | % adult population that completed primary education        | IBGE       |
+| scholarity              | education level                           | Number | Uncategorized                         | % adult population that completed primary education | IBGE       |
 +-------------------------+-------------------------------------------+--------+---------------------------------------+------------------------------------------+-------------+
-| infant_mortality         | % Infant mortality                        | Number | Uncategorized                         | % of infant mortality         | SIM       |
+| infant_mortality        | % Infant mortality                        | Number | Uncategorized                         | % of infant mortality           | SIM       |
 +-------------------------+-------------------------------------------+--------+---------------------------------------+------------------------------------------+-------------+
-| idhm                     | Index for Municipal Level Development       | Number | Uncategorized                       | Index for Municipal Level Development  | IBGE        |
+| idhm                    | Index for Municipal Level Development     | Number | Uncategorized                        | Index for Municipal Level Development | IBGE        |
 +-------------------------+-------------------------------------------+--------+---------------------------------------+------------------------------------------+-------------+
 
 
