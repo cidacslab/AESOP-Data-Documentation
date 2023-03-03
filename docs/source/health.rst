@@ -130,7 +130,7 @@ The database is uploaded in a secure computational environment from Fiocruz, mon
 
 The present dataset contains temporal information of total encounters and those related to Upper Respiratory Infection (URI) between January 2017 and December 2022.  
 
-The presente data contains the estimates from the Exceeding cases (GLM model). Upper Respiratory Infection (URI) number of encounters, rate and ratio.   
+The present data contains the estimates from the Exceeding cases (GLM model). Upper Respiratory Infection (URI) number of encounters, rate and ratio.   
 Additional information from each municipality is included in this dataset, including socioeconomic data (Brazilian Deprivation Index strata, index for municipal level development [IDHM], and gross domestic product, infant mortality), as well as education levels (% of adult population that completed primary education). We also included the geographic coordinates and population from each municipality.   
  
 
