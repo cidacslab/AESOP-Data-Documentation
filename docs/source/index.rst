@@ -36,4 +36,5 @@ Contents
    social_media
    social_economical
    environmental
-   synthetic_data
+   human_mobility
+
