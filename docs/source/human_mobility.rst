@@ -11,9 +11,7 @@ In 2016, the Network Agency of the IBGE released a database to assess the access
 
 The data, provided by the IBGE, includes information on weekly trip frequency between pairs of municipalities, vehicle types, travel durations, and ticket costs. Much of this information was obtained from bus companies through questionnaires completed at bus terminals. For municipalities without bus stations, alternative contact points were used, such as ticket offices in commercial establishments, bus stops under municipal administrations, city halls, and direct communication  with companies. However, relying solely on formal bus companies was insufficient to represent the true accessibility of cities, as there are municipalities where such companies are absent and no bus lines operate. As a result, informal and alternative modes of transportation (vans, station wagons, mini-buses, etc.) were also included in the research. These informal/alternative carriers typically step in to provide transportation in areas where official companies are unavailable. The data provided by these alternative transportation modes is of declaratory nature, with the database categorized into those registered in the National Register of Legal Entities (CNPJ) and those that do not disclose such information.
  
-Recognizing the diversity of transportation options and the uneven distribution of road networks, data on water transport, predominantly found in the North 
-Region of Brazil, was also gathered. Similar to road transport, formal companies operating at waterway terminals, boat cooperatives, and individual boat 
-operators, with varying levels of formalization, were included in the data collection process.
+Recognizing the diversity of transportation options and the uneven distribution of road networks, data on water transport, predominantly found in the North Region of Brazil, was also gathered. Similar to road transport, formal companies operating at waterway terminals, boat cooperatives, and individual boat operators, with varying levels of formalization, were included in the data collection process.
 
 Data access information
 ^^^^^^^^^^^^^^^^^^^^^^^
@@ -30,10 +28,7 @@ This data does not need to be updated unless a newer report is published. Data i
 Data-specific information
 ^^^^^^^^^^^^^^^^^^^^^^^^^
 
-The data gathered by the IBGE provides estimates of the weekly frequency of a standard normalized vehicle capacity. To have a normalized unity of measure of 
-vehicle mobility between cities, first it was estimated the weekly frequency of vehicles by adding the number of weekly departures between each pair of 
-municipalities. For connection pairs with only quarterly or monthly frequency, the sum of the departure frequencies is adjusted by multiplying it by 0.5 
-and 0.25, respectively, in order to align with the weekly frequency.
+The data gathered by the IBGE provides estimates of the weekly frequency of a standard normalized vehicle capacity. To have a normalized unity of measure of vehicle mobility between cities, first it was estimated the weekly frequency of vehicles by adding the number of weekly departures between each pair of  municipalities. For connection pairs with only quarterly or monthly frequency, the sum of the departure frequencies is adjusted by multiplying it by 0.5 and 0.25, respectively, in order to align with the weekly frequency.
  
 Since different types of vehicles have varying transport capacities, they are also assigned weights. Buses are considered as the standard measure (assigned a 
 value of 1), while van and car frequencies are multiplied by 0.25. Regarding waterway vehicles, flying boats have their frequencies multiplied by 0.25, 
@@ -127,9 +122,13 @@ List of variables extracted from the IBGE database to describe the intercity roa
 
 .. note::
 
-  the `Platform for analytical models in epidemiology - PAMEpi <https://pamepi.rondonia.fiocruz.br/en/index_en.html.>`_ offers support in the documentation and collection of this database. More details in [3]_, [4]_ and [5]_.
+  the `Platform for analytical models in epidemiology - PAMEpi <https://pamepi.rondonia.fiocruz.br/en/index_en.html.>`_ offers support in the documentation and collection of this database. More details in [2]_, [3]_ and [4]_.
 
 .. rubric:: References
 
 .. [1] Ligações rodoviárias e hidroviárias: 2016 / IBGE, Coordenação de Geografia. - Rio de Janeiro: IBGE, 2017. 79p. ISBN 978-85-240-4417-5. 
        Retrieved July 03, 2023, from https://biblioteca.ibge.gov.br/visualizacao/livros/liv100602.pdf.
+.. [2] Platform for analytical models in epidemiology - PAMEpi. https://pamepi.rondonia.fiocruz.br/en/index_en.html. Accessed: February 25, 2022.
+.. [3] GitHub directory - PAMepi/PAMepi-scripts-datalake: v1.0.0 (v1.0.0). Zenodo. . https://doi.org/10.5281/zenodo.6384641. Accessed: February 25, 2022.
+.. [4] da Silva, N.B., Valencia, L.I.O., Ferreira, A., Pereira, F.A., de Oliveira, G.L., Oliveira, P.F., Rodrigues, M.S., Ramos, P.I. and Oliveira, J.F., 2022. Brazilian COVID-19 data streaming. arXiv preprint arXiv:2205.05032.
+
