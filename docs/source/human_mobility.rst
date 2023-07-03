@@ -7,17 +7,9 @@ Road and Fluvial network
 Description
 ^^^^^^^^^^^
 
-In 2016, the Network Agency of the IBGE released a database to assess the accessibility of Brazilian municipalities through public transportation [1]_. The primary 
-focus of the data is to identify the most and least accessible areas within the country. 
+In 2016, the Network Agency of the IBGE released a database to assess the accessibility of Brazilian municipalities through public transportation [1]_. The primary focus of the data is to identify the most and least accessible areas within the country. 
 
-The data, provided by the IBGE, includes information on weekly trip frequency between pairs of municipalities, vehicle types, travel durations, and ticket costs.
-Much of this information was obtained from bus companies through questionnaires completed at bus terminals. For municipalities without bus stations, alternative
-contact points were used, such as ticket offices in commercial establishments, bus stops under municipal administrations, city halls, and direct communication 
-with companies. However, relying solely on formal bus companies was insufficient to represent the true accessibility of cities, as there are municipalities
-where such companies are absent and no bus lines operate. As a result, informal and alternative modes of transportation (vans, station wagons, mini-buses,
-etc.) were also included in the research. These informal/alternative carriers typically step in to provide transportation in areas where official companies
-are unavailable. The data provided by these alternative transportation modes is of declaratory nature, with the database categorized into those registered
-in the National Register of Legal Entities (CNPJ) and those that do not disclose such information.
+The data, provided by the IBGE, includes information on weekly trip frequency between pairs of municipalities, vehicle types, travel durations, and ticket costs. Much of this information was obtained from bus companies through questionnaires completed at bus terminals. For municipalities without bus stations, alternative contact points were used, such as ticket offices in commercial establishments, bus stops under municipal administrations, city halls, and direct communication  with companies. However, relying solely on formal bus companies was insufficient to represent the true accessibility of cities, as there are municipalities where such companies are absent and no bus lines operate. As a result, informal and alternative modes of transportation (vans, station wagons, mini-buses, etc.) were also included in the research. These informal/alternative carriers typically step in to provide transportation in areas where official companies are unavailable. The data provided by these alternative transportation modes is of declaratory nature, with the database categorized into those registered in the National Register of Legal Entities (CNPJ) and those that do not disclose such information.
  
 Recognizing the diversity of transportation options and the uneven distribution of road networks, data on water transport, predominantly found in the North 
 Region of Brazil, was also gathered. Similar to road transport, formal companies operating at waterway terminals, boat cooperatives, and individual boat 
@@ -59,7 +51,7 @@ Limitations
 Uncertainties surrounding the availability and regularity of transportation services is still a problem in some Brazilian cities. Some municipalities lack 
 public transportation altogether, and their population relies solely on private transport options. In other cases, municipalities have weaker and more tenuous 
 integrated transportation systems, they do not meet the necessary temporal or spatial requirements for inclusion in IBGE research. Consequently, collecting
- reliable information about their transportation situation becomes challenging.
+reliable information about their transportation situation becomes challenging.
 
 Another limitation of the data is the representation of connections between municipalities that share the same boundary or that are geographically closed. 
 These municipalities share inter municipal transportations that also operates in another municipality. Examples will be shown later. The use of the NDTI 
