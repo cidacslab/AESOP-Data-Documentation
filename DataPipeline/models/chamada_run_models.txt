@@ -1,0 +1,1 @@
+./run_models.sh /media/juracy/dados_2/projetos/aesopdata/aesop_s3_output/semana_11_2024/base_aps_atual.parquet /media/juracy/dados_2/projetos/aesopdata/aesop_s3_output/semana_11_2024/modelos_R/ivas/
