@@ -1,0 +1,15 @@
+﻿DB Source;Variable;Label;Type;Description
+IBGE;municipio;City name;string;Brazilian city name
+IBGE;co_ibge;City code;numeric;Brazilian city code
+SISAB;ano;Year;numeric;Year
+SISAB;epiweek;Epiweek;numeric;Epiweek
+SISAB;atend_totais;Total PHC Encouters;numeric;Total PHC Encouters in Brazilian cities
+SISAB;atend_ivas;Upper Respiratory Infections related symptoms encounters;numeric;Upper Respiratory Infections related symptoms encounters in Brazilian cities
+SISAB;atend_arbov;Arbovirus Infection related symptoms encounters;numeric;Arbovirus Infection related symptoms in Brazilian cities
+SISAB;faixa_etaria;Age range;string;Age range from individuals that were atended in PHC
+e-Gestor APS;pc_cobertura_sf;Estimated coverage of family health teams;numeric;Estimated coverage of family health teams
+e-Gestor APS;pc_cobertura_ab;Estimated coverage of all PHC Teams;numeric;Estimated coverage of all PHC Teams
+IBGE;cod_rgiimediata;Immediate Region code;numeric;Groupings of municipalities that have as their main reference the urban network and have a local urban center as a basis
+IBGE;nome_rgi;Immediate Region name;string;Groupings of municipalities that have as their main reference the urban network and have a local urban center as a basis
+IBGE;cod_rgint;Intermediate Geographical Regions codes;numeric;Organize the Immediate Regions in the territory based on a region that provides more complex services, such as specialized medical services or large universities.
+IBGE;nome_rgint;Intermediate Geographical Regions names;string;Organize the Immediate Regions in the territory based on a region that provides more complex services, such as specialized medical services or large universities.

@@ -1,0 +1,17 @@
+﻿Type;Code;Name
+CIAP;A77;Dengue and other viral diseases
+CID 10;A90;Dengue
+CID 10;A91;Dengue hemorrhagic fever
+ABP;ABP019;Severe dengue
+CID;A972;Dengue grave
+CID;A979;Unspecified dengue
+CID 10;A920;Chikungunya
+CID 10;A92;Other mosquito-borne viral fevers
+CID 10;A928;Other specified mosquito-borne viral fevers
+CID 10;A929;Mosquito-borne viral fever, unspecified
+CID 10;A99;Unspecified viral hemorrhagic fevers
+CID 10;A98;Other viral hemorrhagic fevers
+CID;A925;Zika
+CID;A93;Other arboviral diseases
+CID;A988;Other viral hemorrhagic fevers
+CID;A93;Oropouche fever
