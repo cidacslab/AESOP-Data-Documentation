@@ -1,5 +1,5 @@
 Health data
-=====
+===========
 
 Primary Health Care (PHC)
 --------------------------------
@@ -7,42 +7,46 @@ Primary Health Care (PHC)
 Description
 ^^^^^^^^^^^
 
-Primary Healthcare Encounters (PHCE) have been used in many countries as early warning and sentinel surveillance of disease outbreaks.
+Worldwide, various countries and health systems adopt the use of Primary Health Care (PHC) data integrated with traditional health surveillance systems to enhance sentinel surveillance and early warning of disease outbreaks capabilities (1,2).
+ 
+Brazil's National Information System on Primary Health Care (SISAB) harbors data on all publicly funded PHC encounters in the country, coded by either the International Classification of Diseases (ICD-10) or the International Classification of Primary Care (ICPC-2) (3).SISAB is a decentralized system maintained by the Ministry of Health (MoH), with every Brazilian municipality running a version of it. Since 2016, its use has become mandatory for receiving federal funds for PHC.
+ 
+It is estimated that the Brazilian national PHC system covers around 75% of the population (4). In 2023, the system registered an average of 39,6 million encounters per month, and all of the 5,570 municipalities registered encounters in the system.
 
-Data of PHCE for Brazil were extracted from the national information system for primary healthcare (SISAB) maintained by the Ministry of  Health (MoH). SISAB is a decentralized system; every Brazilian city runs a local version of it, sending monthly automated reports to the MoH. Since 2016, its use has become mandatory for receiving federal funds for PHC. As of today, 12 million PHCE are being reported monthly. 
+Methods of data collection
+^^^^^^^^^^^^^^^^^^^^^^^^^^
+The AESOP Project maintains a SISAB database ranging from January 2017 up to now, with regular weekly updates through a specific VPN connection. Data is obtained under the permission of the MoH, and data collection is approved by the Ethical Review Board of Oswaldo Cruz Foundation - Brasília Regional Office, CAAE 61444122.0.0000.0040.
 
-Reporting to SISAB requires classifying the Reason for Encounter (REF) using the International Classification of Disease 10th edition (ICD-10) or the International Classification of Primary Care (ICPC-2).
 
-We included a broad set of symptoms, syndromes, and diagnostics possibly related to influenza or COVID-19 in the Upper Respiratory Infection (URI) group in order to develop a warning system with high sensitivity.
+The data is aggregated and non-identified. Each line represents the weekly count of PHC encounters per reason of encounter (coded by either ICD-10 or ICPC-2), city of encounter, gender, and age group.
 
-ICPC codes used are on the table below. ICD-10 codes to the same concepts were mapped to ICPC-2. The complete list of codes can be found in our recent preprint manuscript (https://dx.doi.org/10.2139/ssrn.4364869).  
 
-===  ====================
-A03  Fever
-R05  Cough
-R07  Sneeze
-R08  Other respiratory symptoms
-R74  Upper Respiratory Infection
-R76  Amigdalitis
-R77  Laringitis
-R80  Influenza
-R83  Other respiratory infections
-===  ====================
+For establishing the early warning system based on syndromic surveillance, we grouped a broad set of codes into three categories for defining each of the following syndromes: influenza-like illness (ILI), dengue-like syndrome (DLS) and diarrhea. We aimed at guaranteeing enough sensibility for outbreak detection. The list of codes can be found at: https://github.com/cidacslab/AESOP-Data-Documentation/tree/main/DataPipeline/documentation
+
 
 Data access information
 ^^^^^^^^^^^^^^^^^^^^^^^
 
-Data is open access in the MoH websites, particularly on the following sites: 
+Although the AESOP Project has access to weekly updates following an exclusive permission by the MoH, open access to monthly data is available through the following websites, maintained by the MoH:
 
 - https://sisaps.saude.gov.br/painelsaps/
 - https://sisab.saude.gov.br/
 
-Methods of data collection
-^^^^^^^^^^^^^^^^^^^^^^^^^^
+Data Quality Index (DQI)
+^^^^^^^^^^^^^^^^^^^^^^^^
 
-Data is collected on the report generation systems in the above-mentioned websites. We developed web-scrapping bots to collect the data we are interested in.
+Since SISAB is an administrative database designed and maintained for governance and accountability purposes, evaluating the quality of the available data when used for early warning of outbreaks is crucial to ensure accurate interpretation of epidemiological analysis results.
 
-Data is updated monthly by the Ministry of Health and we are also harvesting it on monthly basis. Beginning in 2023 we will harvest the data on weekly basis. 
+We established a Data Quality Index (DQI) based on the quantitative assessment of the completeness, timeliness, and consistency of SISAB. The DQI is continuously monitored in an 8-week rolling window baseline. In this context, these three quality dimensions are defined as follows:
+
+**Completeness**: defined as the proportion of weeks in each 8-week rolling window with registries of PHC encounters, provided there is no Consecutive Missing in the last two weeks of the 8-week rolling window.
+
+**Timeliness**: represented by the number of weeks between the PHC encounter and the date the data was entered into the system. According to SISAB primary use, PHC encounters may be registered with up to a 4-week lag. For the early warning system purpose, such lag is unacceptable as it would yield lack of opportunity for outbreak detection.
+
+**Consistency**: defined as a minimum number of PHC encounters registered weekly. As administrative health care databases often present with artificial aberrations in time series analysis due to events affecting health services availability and patient behavior, we considered the data to be consistent if the number of registered encounters were within the range of two standard deviations (SD) from the average number of encounters in the last 7 weeks.
+
+In 2023, 4,458 (80%) municipalities showed completeness above 85% for at least 80% of epiweeks and 3,969 (71.2%) showed timelines above 75% for at least 80% of epiweeks. These results yielded a total of 3,713 (66.6%) with a valid DQI for issuing early warning during 80% of 2023 epiweeks. 
+
 
 Data-specific information
 ^^^^^^^^^^^^^^^^^^^^^^^^^
@@ -52,153 +56,79 @@ Data is one dataset where each line is corresponds to one Brazilian city in one 
 Limitations of PHC dataset
 ^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-Currently this dataset has a few relevant limitations, that will probably be solved in the next couple of years.
+SISAB does not carry the entire patient’s electronic health record and, for each encounter, only one diagnostic code is retrieved in the database, leading to imprecision in classifying cases.
 
-One limitation is the availability of data. In Brazil 49.2% of the cities report full usage of the standard electronic health record, a scenario that would allow health authorities to monitor the whole city weekly. 
+Moreover, detailed information on symptoms, tests, and treatments is unavailable.
 
-The other 50.8% use either paper based records or non-standard software, implying that information can be entered in local SISAB with up to forty days of delay for routine billing, making it useless to support early warning systems. MoH also limits the availability of data, releasing reports for public access with 3 months of delay and reporting only monthly cases by city. Weekly reports by facility with no delay would be feasible with current MoH infodata structure, and would greatly support local usage of this data for health surveillance.
-
-Finally, it is essential to note that SISAB was designed for governance and accountability purposes. Thus it does not carry the entire patient’s electronic health record. 
-
-Detailed information on symptoms, tests, and treatments is unavailable at this level, leading to imprecision in classifying cases. Disease codes could suffice for an early warning, but more information will be needed for outbreak investigation. 
 
 
 Variable list for PHC database
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
++---------------+-------------------+----------------------------------------------------+----------+-----------------------------------------------------------------------------------------+
+| DB Source     | Variable          | Label                                              | Type     | Description                                                                             |
++===============+===================+====================================================+==========+=========================================================================================+
+| IBGE          | municipio         | City name                                          | string   | Brazilian city name                                                                    |
++---------------+-------------------+----------------------------------------------------+----------+-----------------------------------------------------------------------------------------+
+| IBGE          | co_ibge           | City code                                          | numeric  | Brazilian city code                                                                    |
++---------------+-------------------+----------------------------------------------------+----------+-----------------------------------------------------------------------------------------+
+| SISAB         | ano               | Year                                               | numeric  | Year                                                                                    |
++---------------+-------------------+----------------------------------------------------+----------+-----------------------------------------------------------------------------------------+
+| SISAB         | epiweek           | Epiweek                                            | numeric  | Epiweek                                                                                 |
++---------------+-------------------+----------------------------------------------------+----------+-----------------------------------------------------------------------------------------+
+| SISAB         | atend_totais      | Total PHC Encouters                                | numeric  | Total PHC Encounters in Brazilian cities                                                |
++---------------+-------------------+----------------------------------------------------+----------+-----------------------------------------------------------------------------------------+
+| SISAB         | atend_ivas        | Upper Respiratory Infections related symptoms encounters | numeric  | Upper Respiratory Infections related symptoms encounters in Brazilian cities            |
++---------------+-------------------+----------------------------------------------------+----------+-----------------------------------------------------------------------------------------+
+| SISAB         | atend_arbov       | Arbovirus Infection related symptoms encounters    | numeric  | Arbovirus Infection related symptoms in Brazilian cities                                |
++---------------+-------------------+----------------------------------------------------+----------+-----------------------------------------------------------------------------------------+
+| SISAB         | faixa_etaria      | Age range                                          | string   | Age range from individuals that were attended in PHC                                    |
++---------------+-------------------+----------------------------------------------------+----------+-----------------------------------------------------------------------------------------+
+| e-Gestor APS  | pc_cobertura_sf   | Estimated coverage of family health teams          | numeric  | Estimated coverage of family health teams                                                |
++---------------+-------------------+----------------------------------------------------+----------+-----------------------------------------------------------------------------------------+
+| e-Gestor APS  | pc_cobertura_ab   | Estimated coverage of all PHC Teams                | numeric  | Estimated coverage of all PHC Teams                                                     |
++---------------+-------------------+----------------------------------------------------+----------+-----------------------------------------------------------------------------------------+
+| IBGE          | cod_rgiimediata   | Immediate Region code                              | numeric  | Groupings of municipalities that have as their main reference the urban network and have a local urban center as a basis |
++---------------+-------------------+----------------------------------------------------+----------+-----------------------------------------------------------------------------------------+
+| IBGE          | nome_rgi          | Immediate Region name                              | string   | Groupings of municipalities that have as their main reference the urban network and have a local urban center as a basis |
++---------------+-------------------+----------------------------------------------------+----------+-----------------------------------------------------------------------------------------+
+| IBGE          | cod_rgint         | Intermediate Geographical Regions codes            | numeric  | Organize the Immediate Regions in the territory based on a region that provides more complex services, such as specialized medical services or large universities |
++---------------+-------------------+----------------------------------------------------+----------+-----------------------------------------------------------------------------------------+
+| IBGE          | nome_rgint        | Intermediate Geographical Regions names            | string   | Organize the Immediate Regions in the territory based on a region that provides more complex services, such as specialized medical services or large universities |
++---------------+-------------------+----------------------------------------------------+----------+-----------------------------------------------------------------------------------------+
 
-+-------------------------+-------------------------------------------+--------+---------------------------------------+------------------------------------------+-------------+
-| Original field name     | Field label                               | Type   | Category                              | Description                              | DB Source   |        
-+=========================+===========================================+========+=======================================+==========================================+=============+
-| uf                      | States and Federal District               | String | Uncategorized                         | States and Federal District              | SISAB       | 
-+-------------------------+-------------------------------------------+--------+---------------------------------------+------------------------------------------+-------------+
-| ibge                    | City code                                 | Number | Uncategorized                         | City code                                | IBGE        |
-+-------------------------+-------------------------------------------+--------+---------------------------------------+------------------------------------------+-------------+
-| municipio               | City name                                 | String | Uncategorized                         | City name                                | SISAB       |
-+-------------------------+-------------------------------------------+--------+---------------------------------------+------------------------------------------+-------------+
-| atendimentos            | Total PHC Encounters                      | Number | Uncategorized                         | Total PHC Encounters                     | SISAB       |
-+-------------------------+-------------------------------------------+--------+---------------------------------------+------------------------------------------+-------------+
-| populacao_estimada      | Population on that year                   | Number | Uncategorized                         | Population on that year                  | IBGE        | 
-+-------------------------+-------------------------------------------+--------+---------------------------------------+------------------------------------------+-------------+
-| ano                     | Year                                      | date   | Uncategorized                         | Year                                     | SISAB       |
-+-------------------------+-------------------------------------------+--------+---------------------------------------+------------------------------------------+-------------+
-| mes                     | Month                                     | date   | Uncategorized                         | Month                                    | SISAB       |
-+-------------------------+-------------------------------------------+--------+---------------------------------------+------------------------------------------+-------------+
-| gripal                  | Upper Respiratory Infections              | Number | Uncategorized                         | Upper Respiratory Infections             | SISAB       |
-+-------------------------+-------------------------------------------+--------+---------------------------------------+------------------------------------------+-------------+
-| relacionada             | Other acute symptoms and syndromes        | Number | Uncategorized                         | Other acute symptoms and syndromes       | SISAB       |
-+-------------------------+-------------------------------------------+--------+---------------------------------------+------------------------------------------+-------------+
-| pulmonar                | Lower respiratory infections              | Number | Uncategorized                         | Lower respiratory infections             | SISAB       |
-+-------------------------+-------------------------------------------+--------+---------------------------------------+------------------------------------------+-------------+
-| nao_relacionada         | Other reasons for encounters              | Number | Uncategorized                         | Other reasons for encounters             | SISAB       |
-+-------------------------+-------------------------------------------+--------+---------------------------------------+------------------------------------------+-------------+
-| confundidor             | Seasonal confounding conditions           | Number | Uncategorized                         | Seasonal confounding conditions          | SISAB       |
-+-------------------------+-------------------------------------------+--------+---------------------------------------+------------------------------------------+-------------+
-| pc_cobertura_sf         | Estimated coverage of family health teams | Number | Uncategorized                         | Estimated coverage of family health teams| e-Gestor APS|
-+-------------------------+-------------------------------------------+--------+---------------------------------------+------------------------------------------+-------------+
-| pc_cobertura_ab         | Estimated coverage of all PHC Teams       | Number | Uncategorized                         | Estimated coverage of all PHC Teams      | e-Gestor APS|
-+-------------------------+-------------------------------------------+--------+---------------------------------------+------------------------------------------+-------------+
-| porte_municipio         | City Size Category                        | String | >= 0 and <= 25000: pequeno (small)    | City Size Category                       | IBGE        |
-+                         +                                           +        +                                       +                                          +             +
-|                         |                                           |        | > 25000 and <= 100000: médio (medium) |                                          |             |
-+                         +                                           +        +                                       +                                          +             +
-|                         |                                           |        | > 100000 and <= 500000: grande (big)  |                                          |             |
-+                         +                                           +        +                                       +                                          +             +
-|                         |                                           |        | > 500000 : metrópole (metropolis)     |                                          |             |
-+-------------------------+-------------------------------------------+--------+---------------------------------------+------------------------------------------+-------------+
-| ubs_count               | Primary Healthcare Facilities in the city | Number | Uncategorized                         | Primary Healthcare Facilities in the city| SCNES       |
-+-------------------------+-------------------------------------------+--------+---------------------------------------+------------------------------------------+-------------+
-|cod_regiao_de_saude      | Federal Health Region Code                | Number | Uncategorized                         | Federal Health Region Code               | SAGE        |
-+-------------------------+-------------------------------------------+--------+---------------------------------------+------------------------------------------+-------------+
-| nome_da_regiao_de_saude | Federal Health Region Name                | String | Uncategorized                         | Federal Health Region Name               | SAGE        | 
-+-------------------------+-------------------------------------------+--------+---------------------------------------+------------------------------------------+-------------+
-| long                    | Longitude of city hall                    | Number | Uncategorized                         | Longitude of city hall                   | IBGE        |
-+-------------------------+-------------------------------------------+--------+---------------------------------------+------------------------------------------+-------------+
-| lat                     | Latitude of city hall                     | Number | Uncategorized                         | Latitude of city hall                    | IBGE        |
-+-------------------------+-------------------------------------------+--------+---------------------------------------+------------------------------------------+-------------+
-| area_km2                | Area of the city in square kilometres     | Number | Uncategorized                         | Area of the city in square kilometres    | IBGE        |
-+-------------------------+-------------------------------------------+--------+---------------------------------------+------------------------------------------+-------------+
-| alergias                | Confounding seasonal allergies            | Number | Uncategorized                         | Confounding seasonal allergies           | SISAB       |
-+-------------------------+-------------------------------------------+--------+---------------------------------------+------------------------------------------+-------------+
-| dengue                  | Confounding arboviruses                   | Number | Uncategorized                         | Confounding arboviruses                  | SISAB       |
-+-------------------------+-------------------------------------------+--------+---------------------------------------+------------------------------------------+-------------+
 
-Dashboard PHC Dataset
-^^^^^^^^^^^^^^^^^^^^^^^^^
-As the open-source database is aggregated by month, and such delay could hinder an early detection signal of a possible outbreak, for the beta version of the dashboard we used the SISAB database from Bahia. In collaboration with the Bahia Health Department, we obtained the individualized registers from the 417 municipalities in the state. 
-
-The database is uploaded in a secure computational environment from Fiocruz, monitored by protection policies non-identified database. In this area, the reasons for encounters (see Description) are aggregated by **municipalities and epidemiological week**. 
-
-The present dataset contains temporal information of total encounters and those related to Upper Respiratory Infection (URI) between January 2017 and December 2022.  
-
-The present data contains the estimates from the Exceeding cases (GLM model). Upper Respiratory Infection (URI) number of encounters, rate and ratio.   
-Additional information from each municipality is included in this dataset, including socioeconomic data (Brazilian Deprivation Index strata, index for municipal level development [IDHM], and gross domestic product, infant mortality), as well as education levels (% of adult population that completed primary education). We also included the geographic coordinates and population from each municipality.   
- 
-
-Variables from this dataset are described below: 
-
-Variable list for PHC Bahia database
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-
-+-------------------------+-------------------------------------------+--------+---------------------------------------+-----------------------------------------------------+-------------+
-| Original field name     | Field label                               | Type   | Category                              | Description                                         | DB Source   |        
-+=========================+===========================================+========+=======================================+=====================================================+=============+
-| state                   | States and Federal District               | String | Uncategorized                         | States and Federal District                         | SISAB       | 
-+-------------------------+-------------------------------------------+--------+---------------------------------------+-----------------------------------------------------+-------------+
-| co_ibge                 | City code                                 | Number | Uncategorized                         | City code                                           | IBGE        |
-+-------------------------+-------------------------------------------+--------+---------------------------------------+-----------------------------------------------------+-------------+
-| city                    | City name                                 | String | Uncategorized                         | City name                                           | SISAB       |
-+-------------------------+-------------------------------------------+--------+---------------------------------------+-----------------------------------------------------+-------------+
-| long                    | Longitude                                 | Number | Uncategorized                         | Longitude                                           | IBGE        |
-+-------------------------+-------------------------------------------+--------+---------------------------------------+-----------------------------------------------------+-------------+
-| lat                     | Latitude                                  | Number | Uncategorized                         | Latitude                                            | IBGE        | 
-+-------------------------+-------------------------------------------+--------+---------------------------------------+-----------------------------------------------------+-------------+
-| date_week               | Epidemiological week                      | date   | Uncategorized                         | Epidemiological week                                | SISAB       |
-+-------------------------+-------------------------------------------+--------+---------------------------------------+-----------------------------------------------------+-------------+
-| all_cases               | Total PHC encounters                      | Number | Uncategorized                         | Total PHC encounters                                | SISAB       |
-+-------------------------+-------------------------------------------+--------+---------------------------------------+-----------------------------------------------------+-------------+
-| uri_cases               | Upper Respiratory Infections              | Number | Uncategorized                         | Upper Respiratory Infections                        | SISAB       |
-+-------------------------+-------------------------------------------+--------+---------------------------------------+-----------------------------------------------------+-------------+
-| uri_per_population      | URI rate                                  | Number | Uncategorized                         | URI rate                                            | SISAB       |
-+-------------------------+-------------------------------------------+--------+---------------------------------------+-----------------------------------------------------+-------------+
-| uri_ratio               | Uri ratio                                 | Number | Uncategorized                         | Uri ratio (URI/Total)                               | SISAB       |
-+-------------------------+-------------------------------------------+--------+---------------------------------------+-----------------------------------------------------+-------------+
-| observed_number         | Observed number of URI (GLM)              | Number | Uncategorized                         | Observed number of URI (GLM)                        | SISAB       | 
-+-------------------------+-------------------------------------------+--------+---------------------------------------+-----------------------------------------------------+-------------+
-| exceeds_threshold       |  Exceeding threshold                      | Number | Uncategorized                         | Exceeding number from threshold (GLM)               | SISAB       |
-+-------------------------+-------------------------------------------+--------+---------------------------------------+-----------------------------------------------------+-------------+
-| upper_bound_threshold   | Upper Bound Threshold                     | Number | Uncategorized                         | Upper Bound Threshold (GLM)                         | SISAB       |
-+-------------------------+-------------------------------------------+--------+---------------------------------------+-----------------------------------------------------+-------------+
-| percent_excess_higher   | Percentage Exceeding                      | Number | Uncategorized                         | Percentage Exceeding from threshold                 | SISAB       |
-+-------------------------+-------------------------------------------+--------+---------------------------------------+-----------------------------------------------------+-------------+
-| color_code              | Color code                                | string | Categorized                           | Color code of signal detection                      | SISAB       | 
-+-------------------------+-------------------------------------------+--------+---------------------------------------+-----------------------------------------------------+-------------+
-| population              | Population                                | Number | Uncategorized                         | Estimated population                                | IBGE        |
-+-------------------------+-------------------------------------------+--------+---------------------------------------+-----------------------------------------------------+-------------+
-| ibp                     | Brazilian Deprivation Index stratas       | Number | Categorized                           | Brazilian Deprivation Index stratas                 | CIDACS      |
-+-------------------------+-------------------------------------------+--------+---------------------------------------+-----------------------------------------------------+-------------+
-| scholarity              | education level                           | Number | Uncategorized                         | % adult population that completed primary education | IBGE        |
-+-------------------------+-------------------------------------------+--------+---------------------------------------+-----------------------------------------------------+-------------+
-| infant_mortality        | % Infant mortality                        | Number | Uncategorized                         | % of infant mortality                               | SIM         |
-+-------------------------+-------------------------------------------+--------+---------------------------------------+-----------------------------------------------------+-------------+
-| idhm                    | Index for Municipal Level Development     | Number | Uncategorized                         | Index for Municipal Level Development.              | IBGE        |
-+-------------------------+-------------------------------------------+--------+---------------------------------------+-----------------------------------------------------+-------------+
 
 
 .. rubric:: References
 
-V.A. Oliveira , A.P. Sironi, I. Marcilio, P.T.V. Florentino, T. C. Silva, R. F. Ortiz, T. M. Machado, G.O. Penna, M.E. Barreto, M. B. Netto,  Syndromic detection of upper respiratory infections in Primary Healthcare as a candidate for Covid-19 early warning in Brazil. A retrospective ecological study. Preprint Available at SSRN: http://dx.doi.org/10.2139/ssrn.4364869, 2023.
+(1) Bagaria J, Jansen T, Marques DFP, Hooiveld M, McMenamin J, de Lusignan S, Vilcu AM, Meijer A, Rodrigues AP, Brytting M, Mazagatos C, Cogdale J, van der Werf S, Dijkstra F, Guiomar R, Enkirch T, Valenciano M, I-MOVE-COVID-19 study team. Rapidly adapting primary care sentinel surveillance across seven countries in Europe for COVID-19 in the first half of 2020: strengths, challenges, and lessons learned. Euro Surveill. 2022;27(26):pii=2100864. doi:10.2807/1560-7917.ES.2022.27.26.2100864.
+
+(2) Prado NMBL, Biscarde DGDS, Pinto Junior EP, Santos HLPCD, Mota SEC, Menezes ELC, Oliveira JS, Santos AMD. Primary care-based health surveillance actions in response to the COVID-19 pandemic: contributions to the debate. Cien Saude Colet. 2021l;26(7):2843-2857. doi: 10.1590/1413-81232021267.00582021.
+
+(3) Cerqueira-Silva T, Oliveira JF, Oliveira VA, Florentino PTV, Sironi A, Penna GO, Ramos PIP, Boaventura VS, Barral-Netto M, Marcilio I. Early warning system using primary healthcare data in the post-COVID-19-pandemic era: Brazil nationwide case-study. Pre-print available at medRxiv: doi: 10.1101/2023.11.24.23299005
+
+(4) Sellera PEG, Pedebos LA, Harzheim E, Medeiros OL de, Ramos LG, Martins C, D’Avila OP. Monitoramento e avaliação dos atributos da Atenção Primária à Saúde em nível nacional: novos desafios. Ciênc Saúde Coletiva. 2020;25(4):1401–12. doi:10.1590/1413-81232020254.36942019
+
 
 
 **Contributors**
 
 +-------------------+-----------------------------------------------------------------+
-| Vinicius Oliveira | Center for Data and Knowledge Integration for Health (CIDACS),  | 
-+                   +                                                                 +
+| George Barbosa    | Center for Data and Knowledge Integration for Health (CIDACS),  |
 |                   | Instituto Gonçalo Moniz, Fundação Oswaldo Cruz, Salvador, Brazil|
-+-------------------+-----------------------------------------------------------------+ 
-| Pilar Veras       | Center for Data and Knowledge Integration for Health (CIDACS),  | 
-+                   +                                                                 +
++-------------------+-----------------------------------------------------------------+
+| Izabel Marcilio   | Center for Data and Knowledge Integration for Health (CIDACS),  |
 |                   | Instituto Gonçalo Moniz, Fundação Oswaldo Cruz, Salvador, Brazil|
-+-------------------+-----------------------------------------------------------------+    
++-------------------+-----------------------------------------------------------------+
+| Juracy Bertoldo   | Center for Data and Knowledge Integration for Health (CIDACS),  |
+|                   | Instituto Gonçalo Moniz, Fundação Oswaldo Cruz, Salvador, Brazil|
++-------------------+-----------------------------------------------------------------+
+| Pilar Veras       | Center for Data and Knowledge Integration for Health (CIDACS),  |
+|                   | Instituto Gonçalo Moniz, Fundação Oswaldo Cruz, Salvador, Brazil|
++-------------------+-----------------------------------------------------------------+
+| Vinicius Oliveira | Center for Data and Knowledge Integration for Health (CIDACS),  |
+|                   | Instituto Gonçalo Moniz, Fundação Oswaldo Cruz, Salvador, Brazil|
++-------------------+-----------------------------------------------------------------+
+
 
 
