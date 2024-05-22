@@ -1,3 +1,10 @@
 Web-based data
 =====
-It provides deprivation measures for each Brazilian municipality based on the 2010 Brazilian census data. It is used to evaluate health inequalities across the country. The 2010 Brazilian Census social and economic estimatimations are the basis for calculating the deprivation measure, available at [1]_ and [2]_. 
+A subgroup within the scope of Event-based Surveillance (EBS) is focused on Web-based EBS (w-EBS), which pertains to events where the data is sourced from the web. This approach leverages online platforms, social media, news websites, and other internet-based resources to gather real-time information on public health events, enabling rapid detection and response to potential outbreaks and health threats.
+
+Search Engine
+-------------
+to do
+
+Description
+^^^^^^^^^^^
