@@ -12,7 +12,7 @@ Description
 ^^^^^^^^^^^
 TO DO
 
-Data dictionary of dataset variables generated from Google Trends
+Data Dictionary
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 +---------------------+-------------------------------------------------------------+------------+------------------------------------------+
 | Field Name          | Field Label                                                 | Type       | Description                              | 
@@ -39,7 +39,7 @@ Data dictionary of dataset variables generated from Google Trends
 
 .. note::
 
-  TO DO
+   Dataset variables generated from Google Trends only. However, the structure will be maintained for other captures in search engines.
 
 
 
