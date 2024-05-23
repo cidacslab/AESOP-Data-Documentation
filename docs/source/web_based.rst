@@ -45,11 +45,11 @@ Data Dictionary
 
 
 .. image:: web-based-search-engine-sample.png 
-   :height: 10cm
-   :width: 20cm
+   :height: 612
+   :width: 297
    :align: center
    
-Sample overview.
+Sample of the produced dataset.
 
 Social Media
 -------------
