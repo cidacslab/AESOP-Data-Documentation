@@ -6,11 +6,11 @@ A subgroup within the scope of Event-based Surveillance (EBS) [1]_ is focused on
 
 Search Engine
 -------------
-to do
+TO DO
 
 Description
 ^^^^^^^^^^^
-to do
+TO DO
 
 Data dictionary of dataset variables generated from Google Trends
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
@@ -45,20 +45,20 @@ Data dictionary of dataset variables generated from Google Trends
 
 Social Media
 -------------
-to do
+TO DO
 
 Description
 ^^^^^^^^^^^
-to do
+TO DO
 
 
 News
 -------------
-to do
+TO DO
 
 Description
 ^^^^^^^^^^^
-to do
+TO DO
 
 
 
