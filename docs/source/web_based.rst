@@ -43,6 +43,14 @@ Data Dictionary
 
 
 
+
+.. image:: web-based-search-engine-sample.png 
+   :height: 10cm
+   :width: 20cm
+   :align: center
+   
+Sample overview.
+
 Social Media
 -------------
 TO DO
