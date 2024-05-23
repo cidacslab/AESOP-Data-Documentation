@@ -45,8 +45,8 @@ Data Dictionary
 
 
 .. image:: web-based-search-engine-sample.png 
-   :height: 612
-   :width: 297
+   :width: 612
+   :height: 297 
    :align: center
    
 Sample of the produced dataset.
