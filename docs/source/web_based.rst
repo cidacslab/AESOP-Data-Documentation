@@ -62,19 +62,19 @@ TO DO
 Data Dictionary
 ^^^^^^^^^^^^^^^
 +---------------------+-------------------------------------------------------------+------------+------------------------------------------+
-| Field Name          | Field Label                                                 | Type       | Description                              | 
-+=====================+====================================================+========+============+==========================================+
-| DATE_CALENDAR_WEEK  | Date representing the first day of the week (Sunday)        | Number     | TO DO                                    | 
+| Field Name          | Description                                                 | Type       | Format Sample                            | 
++=====================+=============================================================+============+==========================================+
+| Date                | Date and time of tweet send                                 | object     | 15/09/2022                               | 
 +---------------------+-------------------------------------------------------------+------------+------------------------------------------+
-| TREND_INDICATOR     | Indicator with the search trend for the term in the period  | String     | TO DO                                    |
+| TweetText           | Tweet message with special characters and emoticons         | String     | mais um dia com uma tosse escrota do crl |
 +---------------------+-------------------------------------------------------------+------------+------------------------------------------+
-| IS_PARTIAL          | Whether the data is still partial for the week in question  | String     | TO DO                                    | 
+| UserLocation        | Place of residence informed by the user                     | String     | Teresina, Brazil                         | 
 +---------------------+-------------------------------------------------------------+------------+------------------------------------------+
-| SEARCH_ENGINE       | What is the search engine                                   | String     | TO DO                                    |  
+| ID                  | Unique tweet identifier                                     | String     | 5432704649375324736                      |  
 +---------------------+-------------------------------------------------------------+------------+------------------------------------------+
-| SEARCH_KEYWORD      | Keyword or expression searched                              | String     | TO DO                                    | 
+| User                | Username                                                    | String     | Irid_S_65                                | 
 +---------------------+-------------------------------------------------------------+------------+------------------------------------------+
-| UF                  | State code                                                  | String     | TO DO                                    |
+| UserName            | State code                                                  | String     | TO DO                                    |
 +---------------------+-------------------------------------------------------------+------------+------------------------------------------+
 | MODEL_CAPTURE       | Version of the searched words and expressions               | String     | TO DO                                    | 
 +---------------------+-------------------------------------------------------------+------------+------------------------------------------+
@@ -86,7 +86,7 @@ Data Dictionary
 
 .. note::
 
-   Dataset variables generated from Google Trends only. However, the structure will be maintained for other captures in search engines.
+   TO DO
 
 
 
