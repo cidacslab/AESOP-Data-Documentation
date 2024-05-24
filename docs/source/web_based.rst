@@ -16,7 +16,6 @@ Therefore, within the scope of Aesop, we consider that web-based data is for con
 
 Search Engine
 -------------
-TO DO
 
 Description
 ^^^^^^^^^^^
@@ -63,7 +62,6 @@ Sample of the produced dataset.
 
 Social Media
 -------------
-TO DO
 
 Description
 ^^^^^^^^^^^
@@ -112,7 +110,6 @@ Sample of the produced dataset.
 
 News
 -------------
-TO DO
 
 Description
 ^^^^^^^^^^^
