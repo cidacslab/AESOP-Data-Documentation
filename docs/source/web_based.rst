@@ -5,11 +5,12 @@ Updated: 2024-05-22
 A subgroup within the scope of Event-based Surveillance (EBS) [1]_ is focused on Web-based EBS (w-EBS), which pertains to events where the data is sourced from the web. This approach leverages online platforms, social media, news websites, and other internet-based resources to gather real-time information on public health events, enabling rapid detection and response to potential outbreaks and health threats.
 
 However, web-based data has challenges that need to be considered, among which we highlight:
-* Data Integrity: Maintaining the veracity and accuracy of the data.
-* Noise Filtration and Relevance: Developing advanced methods to filter out irrelevant content and pinpoint pertinent information.
-* Sampling Bias: Addressing the variation in web-based (e.g. social media and internet) usage across different populations to avoid sampling bias.
-* Technological Tools: Using natural language processing, machine learning, and big data analytics to transform unstructured data into actionable insights.
-* Integration with traditional initiatives: How to do it and obtain results to generate warnings/alerts.
+
+      * Data Integrity: Maintaining the veracity and accuracy of the data.
+      * Noise Filtration and Relevance: Developing advanced methods to filter out irrelevant content and pinpoint pertinent information.
+      * Sampling Bias: Addressing the variation in web-based (e.g. social media and internet) usage across different populations to avoid sampling bias.
+      * Technological Tools: Using natural language processing, machine learning, and big data analytics to transform unstructured data into actionable insights.
+      * Integration with traditional initiatives: How to do it and obtain results to generate warnings/alerts.
 
 Therefore, within the scope of Aesop, we consider that web-based data is for context, being a "side-car" in the process of evaluating a notice.
 
