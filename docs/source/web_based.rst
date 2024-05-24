@@ -21,7 +21,23 @@ Description
 ^^^^^^^^^^^
 TO DO
 
-Data Dictionary
+Data access information
+^^^^^^^^^^^^^^^^^^^^^^^
+TO DO
+
+Methods of data collection
+^^^^^^^^^^^^^^^^^^^^^^^^^^
+TO DO
+
+Data-specific information
+^^^^^^^^^^^^^^^^^^^^^^^^^
+TO DO
+
+Limitations of the dataset
+^^^^^^^^^^^^^^^^^^^^^^^^^^
+TO DO
+
+Data dictionary
 ^^^^^^^^^^^^^^^
 +---------------------+-------------------------------------------------------------+------------+------------------------------------------+
 | Field Name          | Field Label                                                 | Type       | Description                              | 
@@ -67,8 +83,25 @@ Description
 ^^^^^^^^^^^
 TO DO
 
-Data Dictionary
+Data access information
+^^^^^^^^^^^^^^^^^^^^^^^
+TO DO
+
+Methods of data collection
+^^^^^^^^^^^^^^^^^^^^^^^^^^
+TO DO
+
+Data-specific information
+^^^^^^^^^^^^^^^^^^^^^^^^^
+TO DO
+
+Limitations of the dataset
+^^^^^^^^^^^^^^^^^^^^^^^^^^
+TO DO
+
+Data dictionary
 ^^^^^^^^^^^^^^^
+
 +---------------------+------------------------------------------------------------------------+------------+------------------------------------------+
 | Field Name          | Description                                                            | Type       | Format Sample                            | 
 +=====================+========================================================================+============+==========================================+
@@ -113,6 +146,26 @@ News
 
 Description
 ^^^^^^^^^^^
+TO DO
+
+Data access information
+^^^^^^^^^^^^^^^^^^^^^^^
+TO DO
+
+Methods of data collection
+^^^^^^^^^^^^^^^^^^^^^^^^^^
+TO DO
+
+Data-specific information
+^^^^^^^^^^^^^^^^^^^^^^^^^
+TO DO
+
+Limitations of the dataset
+^^^^^^^^^^^^^^^^^^^^^^^^^^
+TO DO
+
+Data dictionary
+^^^^^^^^^^^^^^^
 TO DO
 
 
