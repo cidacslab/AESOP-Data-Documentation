@@ -6,10 +6,10 @@ A subgroup within the scope of Event-based Surveillance (EBS) [1]_ is focused on
 
 However, web-based data has challenges that need to be considered, among which we highlight:
 
-      * Data Integrity: Maintaining the veracity and accuracy of the data.
-      * Noise Filtration and Relevance: Developing advanced methods to filter out irrelevant content and pinpoint pertinent information.
-      * Sampling Bias: Addressing the variation in web-based (e.g. social media and internet) usage across different populations to avoid sampling bias.
-      * Technological Tools: Using natural language processing, machine learning, and big data analytics to transform unstructured data into actionable insights.
+      * Data integrity: Maintaining the veracity and accuracy of the data.
+      * Noise filtration and relevance: Developing advanced methods to filter out irrelevant content and pinpoint pertinent information.
+      * Sampling bias: Addressing the variation in web-based (e.g. social media and internet) usage across different populations to avoid sampling bias.
+      * Technological tools: Using natural language processing, machine learning, and big data analytics to transform unstructured data into actionable insights.
       * Integration with traditional initiatives: How to do it and obtain results to generate warnings/alerts.
 
 Therefore, within the scope of Aesop, we consider that web-based data is for context, being a "side-car" in the process of evaluating a notice.
