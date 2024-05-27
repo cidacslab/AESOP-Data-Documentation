@@ -173,7 +173,7 @@ Sample of the produced dataset.
 News
 -------------
 
-Expected availability in july 2024.
+Expected availability in July 2024.
 
 
 .. rubric:: References
