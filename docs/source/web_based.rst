@@ -68,7 +68,7 @@ Furthermore, while search engine data offers universal accessibility and the pot
 Data dictionary
 ^^^^^^^^^^^^^^^
 +---------------------+-------------------------------------------------------------+------------+------------------------------------------+
-| Field Name          | Field Label                                                 | Type       | Description                              | 
+| Field Name          | Description                                                 | Type       | Format Sample                            | 
 +=====================+====================================================+========+============+==========================================+
 | DATE_CALENDAR_WEEK  | Date representing the first day of the week (Sunday)        | Number     | TO DO                                    | 
 +---------------------+-------------------------------------------------------------+------------+------------------------------------------+
@@ -92,7 +92,7 @@ Data dictionary
 
 .. note::
 
-   Dataset variables generated from Google Trends only. However, the structure will be maintained for other captures in search engines.
+   Dataset variables generated from Google Trends only. However, the structure will be maintained for other captures in search engines and the representation of types is considered the file in parquet format.
 
 
 
