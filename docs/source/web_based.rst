@@ -41,7 +41,7 @@ To obtain data from the Google Trends API, we used the Python library pytrends. 
 
       * Symptoms: cough, sore throat, shortness of breath, runny nose, etc.
       * Diseases: flu, cold, COVID-19, etc.
-      * Medications: Benegrip, cough medicine, etc.
+      * Medications: benegrip, cough medicine, etc.
 
 These search terms were assigned a version number, allowing us to track changes to any terms or subgroups over time and enabling future comparisons.
 
