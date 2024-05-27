@@ -39,6 +39,8 @@ TO DO
 
 Limitations of the dataset
 ^^^^^^^^^^^^^^^^^^^^^^^^^^
+Datasets generated from Google Trends have limitations regarding the attribution of searches to areas smaller than states. Therefore, initially, the datasets are associated with states.
+
 It is crucial to integrate search engine data with other traditional and validated data sources to ensure accuracy and reliability. This integration helps mitigate issues such as data noise, sampling bias, and the relevance of the information gathered. Employing advanced technologies like natural language processing, machine learning, and big data analytics can enhance the ability to filter and analyze search engine data, transforming it into actionable insights.
 
 Additionally, cultural factors, internet access, and digital literacy among the population must be considered. Variations in these areas can influence the volume and type of search queries, potentially affecting the representativeness of the data. Populations with limited internet access or lower levels of digital literacy might be underrepresented in search engine data, leading to biases. Understanding these limitations is essential for accurately interpreting the data and ensuring it complements other surveillance methods effectively.
