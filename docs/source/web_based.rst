@@ -37,7 +37,7 @@ Overall, the use of Google Trends as a data source provides a valuable tool for 
 
 Methods of data collection
 ^^^^^^^^^^^^^^^^^^^^^^^^^^
-To obtain data from the Google Trends API, we used the Python library pytrends. Queries were conducted with information about the words/expressions (search terms) of interest, the period, and the states from which we desired data. The search terms were classified into three groups: symptoms, diseases, and medications. All terms were selected with the aim of identifying group syndrome interests, for example:
+To obtain data from the Google Trends API, we used the Python library pytrends [TO DO]. Queries were conducted with information about the words/expressions (search terms) of interest, the period, and the states from which we desired data. The search terms were classified into three groups: symptoms, diseases, and medications. All terms were selected with the aim of identifying group syndrome interests, for example:
 
       * Symptoms: cough, sore throat, shortness of breath, runny nose, etc.
       * Diseases: flu, cold, COVID-19, etc.
@@ -46,6 +46,8 @@ To obtain data from the Google Trends API, we used the Python library pytrends. 
 These search terms were assigned a version number, allowing us to track changes to any terms or subgroups over time and enabling future comparisons.
 
 The data is stored and processed on the project's high-performance computing (HPC) infrastructure. This pipeline ultimately generates datasets that can be consumed and integrated into various project approaches, feeding the dashboard as "side-car" information.
+
+Currently, data is collected weekly to maintain compatibility with other datasets, and the data spans from the current date back to five years ago. However, we are considering working with shorter periods in the future and exploring the possibility of obtaining daily information, as the source allows for this approach.
 
 Data-specific information
 ^^^^^^^^^^^^^^^^^^^^^^^^^
