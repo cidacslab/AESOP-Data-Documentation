@@ -173,7 +173,7 @@ Sample of the produced dataset.
 News
 -------------
 
-Expected incorporation in july 2024.
+Expected availability in july 2024.
 
 
 .. rubric:: References
