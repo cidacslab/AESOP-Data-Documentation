@@ -51,7 +51,9 @@ Currently, data is collected weekly to maintain compatibility with other dataset
 
 Data-specific information
 ^^^^^^^^^^^^^^^^^^^^^^^^^
-TO DO
+The data is stored in the HPC in parquet.gzip format within folders containing information for each week. Each file represents a search expression and period, along with the search engine used and the version of the search terms, allowing flexibility for future adjustments. These files have a small volume, with each state having an entry for each search term and an index representing the trend.
+
+The file to be shared is generated in the final stage of the processing pipeline, where all the information is aggregated into a single file with a size of approximately 5 MB in CSV format.
 
 Limitations of the dataset
 ^^^^^^^^^^^^^^^^^^^^^^^^^^
