@@ -173,29 +173,7 @@ Sample of the produced dataset.
 News
 -------------
 
-Description
-^^^^^^^^^^^
-TO DO
-
-Data access information
-^^^^^^^^^^^^^^^^^^^^^^^
-TO DO
-
-Methods of data collection
-^^^^^^^^^^^^^^^^^^^^^^^^^^
-TO DO
-
-Data-specific information
-^^^^^^^^^^^^^^^^^^^^^^^^^
-TO DO
-
-Limitations of the dataset
-^^^^^^^^^^^^^^^^^^^^^^^^^^
-TO DO
-
-Data dictionary
-^^^^^^^^^^^^^^^
-TO DO
+Expected incorporation in June 2024
 
 
 
@@ -203,6 +181,7 @@ TO DO
 .. rubric:: References
 
 .. [1] G. J., Williams, G. M., Clements, A. C. A., & Hu, W. (2014). Internet-based surveillance systems for monitoring emerging infectious diseases. Lancet Infect Dis, 14(2), 160–168. https://doi.org/10.1016/s1473-3099(13)70244-5.
+
 .. [2] G. J., Williams, G. M., Clements, A. C. A., & Hu, W. (2014). Internet-based surveillance systems for monitoring emerging infectious diseases. Lancet Infect Dis, 14(2), 160–168. https://doi.org/10.1016/s1473-3099(13)70244-5.
 
 
