@@ -19,7 +19,13 @@ Search Engine
 
 Description
 ^^^^^^^^^^^
-TO DO
+Search engines are considered in studies as a promising source for the early detection of events that may represent potential public health issues [TO DO]. Within the scope of the Aesop project, search engines serve as a "side-car" data source, meaning they require another primary source to guide the alert. Search engines such as Google, Bing, Yahoo, and others are valuable for understanding population search patterns, which can indicate trends of interest related to health topics that contribute to epidemiological surveillance.
+
+On one hand, this is an opportune process that can aid decision-making by enabling the issuance of an alert when something outside the norm (an anomaly) is detected [TO DO]. Search engine data can reveal real-time insights into public health concerns by identifying spikes in search queries for symptoms, diseases, or other health-related topics. This proactive approach allows for a more responsive and dynamic public health monitoring system.
+
+Furthermore, the universal accessibility and the potential to obtain search engine data independently of the health system make this a powerful tool. However, this is conditioned by the cultural and socio-economic context of the population. Differences in health-seeking behaviors, language, and economic status can impact the way individuals use search engines for health information. Recognizing these factors is crucial to leveraging search engine data effectively and ensuring it provides a meaningful contribution to public health surveillance.
+
+Thus, search engines, while secondary, play a critical contextual role in the overall surveillance framework, providing a complementary layer of data that enhances the ability to detect and respond to public health threats more swiftly.
 
 Data access information
 ^^^^^^^^^^^^^^^^^^^^^^^
