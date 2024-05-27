@@ -23,8 +23,6 @@ Search engines are considered in studies as a promising source for the early det
 
 On one hand, this is an opportune process that can aid decision-making by enabling the issuance of an alert when something outside the norm (an anomaly) is detected [TO DO]. Search engine data can reveal real-time insights into public health concerns by identifying spikes in search queries for symptoms, diseases, or other health-related topics. This proactive approach allows for a more responsive and dynamic public health monitoring system.
 
-Furthermore, the universal accessibility and the potential to obtain search engine data independently of the health system make this a powerful tool. However, this is conditioned by the cultural and socio-economic context of the population. Differences in health-seeking behaviors, language, and economic status can impact the way individuals use search engines for health information. Recognizing these factors is crucial to leveraging search engine data effectively and ensuring it provides a meaningful contribution to public health surveillance.
-
 Thus, search engines, while secondary, play a critical contextual role in the overall surveillance framework, providing a complementary layer of data that enhances the ability to detect and respond to public health threats more swiftly.
 
 Data access information
@@ -41,7 +39,11 @@ TO DO
 
 Limitations of the dataset
 ^^^^^^^^^^^^^^^^^^^^^^^^^^
-TO DO
+It is crucial to integrate search engine data with other traditional and validated data sources to ensure accuracy and reliability. This integration helps mitigate issues such as data noise, sampling bias, and the relevance of the information gathered. Employing advanced technologies like natural language processing, machine learning, and big data analytics can enhance the ability to filter and analyze search engine data, transforming it into actionable insights.
+
+Additionally, cultural factors, internet access, and digital literacy among the population must be considered. Variations in these areas can influence the volume and type of search queries, potentially affecting the representativeness of the data. Populations with limited internet access or lower levels of digital literacy might be underrepresented in search engine data, leading to biases. Understanding these limitations is essential for accurately interpreting the data and ensuring it complements other surveillance methods effectively.
+
+Furthermore, while search engine data offers universal accessibility and the potential to be obtained independently of the health system, this advantage is conditioned by the cultural and socio-economic context of the population. Differences in health-seeking behaviors, language, and economic status can impact how individuals use search engines for health information. Recognizing these factors is crucial to leveraging search engine data effectively and ensuring it provides a meaningful contribution to public health surveillance.
 
 Data dictionary
 ^^^^^^^^^^^^^^^
