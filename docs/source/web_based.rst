@@ -27,7 +27,13 @@ Thus, search engines, while secondary, play a critical contextual role in the ov
 
 Data access information
 ^^^^^^^^^^^^^^^^^^^^^^^
-TO DO
+The primary data source used is Google Trends [TO DO], which monitors the search trends of expressions from Google's search engine and establishes a trend indicator for these expressions. Google Trends provides valuable insights into what people are searching for over time, allowing for the identification of patterns and spikes in search queries related to various topics, including public health concerns.
+
+By analyzing this data, we can gain an understanding of the public's interest and awareness regarding specific health issues, which can serve as an early warning system for potential outbreaks or health threats. The data from Google Trends is particularly useful because it is updated in real-time and can be accessed independently of the health system, offering a wide-reaching and timely perspective on emerging public health trends.
+
+However, it is important to note that the data from Google Trends is aggregated and anonymized, which means that while it can highlight trends at a broad level, it may not provide detailed insights at a more granular level. For instance, search trends are typically attributed to states rather than smaller geographic areas, which may limit the specificity of the data. Additionally, the interpretation of search trends must consider cultural and socio-economic factors, as well as variations in internet access and digital literacy among different populations.
+
+Overall, the use of Google Trends as a data source provides a valuable tool for enhancing public health surveillance and decision-making processes, helping to identify and respond to potential health threats more effectively.
 
 Methods of data collection
 ^^^^^^^^^^^^^^^^^^^^^^^^^^
