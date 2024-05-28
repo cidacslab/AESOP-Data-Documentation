@@ -114,7 +114,9 @@ TO DO
 
 Data access information
 ^^^^^^^^^^^^^^^^^^^^^^^
-TO DO
+Access to Twitter data was initially achieved through an application using the free version of the Twitter API [TO DO]. When Twitter became X, it was necessary to purchase the API to filter messages containing a specific set of sentences. The current Twitter, now X, is one of the most widely used social networks in the world. Brazil ranks sixth globally in terms of X users, with 22 million users.
+
+
 
 Methods of data collection
 ^^^^^^^^^^^^^^^^^^^^^^^^^^
