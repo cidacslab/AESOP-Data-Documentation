@@ -164,9 +164,7 @@ Data dictionary
 
 .. note::
 
-   TO DO
-
-
+   The datasets currently extracted and made available use processed data from the X Platform with sentences related to respiratory syndrome. The dataset structure supports expansions.
 
 
 .. image:: web-based-social-media-sample.png 
