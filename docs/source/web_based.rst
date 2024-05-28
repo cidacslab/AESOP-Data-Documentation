@@ -105,6 +105,7 @@ Data dictionary
 Sample of the produced dataset.
 
 
+
 Social Media
 -------------
 
@@ -112,23 +113,28 @@ Description
 ^^^^^^^^^^^
 TO DO
 
+
 Data access information
 ^^^^^^^^^^^^^^^^^^^^^^^
 Access to Twitter data was initially achieved through an application using the free version of the Twitter API. When Twitter became X, it was necessary to purchase the API [TO DO] to filter messages containing a specific set of sentences. The current Twitter, now X, is one of the most widely used social networks in the world. Brazil ranks sixth globally in terms of X users, with 22 million users [TO DO].
 
+Consolidated data from public messages on X are processed while preserving the private information of individuals. Only aggregated information with sentence frequencies is made available.
 
 
 Methods of data collection
 ^^^^^^^^^^^^^^^^^^^^^^^^^^
 TO DO
 
+
 Data-specific information
 ^^^^^^^^^^^^^^^^^^^^^^^^^
 TO DO
 
+
 Limitations of the dataset
 ^^^^^^^^^^^^^^^^^^^^^^^^^^
 TO DO
+
 
 Data dictionary
 ^^^^^^^^^^^^^^^
