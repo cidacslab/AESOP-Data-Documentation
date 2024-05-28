@@ -123,7 +123,7 @@ Consolidated data from public messages on X are processed while preserving the p
 
 Methods of data collection
 ^^^^^^^^^^^^^^^^^^^^^^^^^^
-TO DO
+To access the X (Twitter) API, the Python library Tweepy was used [TO DO]. Using this library, daily messages in Portuguese are obtained for a set of words and expressions associated with respiratory syndrome. For example, "cough," "fever," "shortness of breath," "sore throat," "headache," "diarrhea," "vomiting," "runny nose," etc. If a message contains one or more of these terms, it is captured and temporarily stored in a transient area for further processing, thus generating a file per day.
 
 
 Data-specific information
