@@ -111,8 +111,9 @@ Social Media
 
 Description
 ^^^^^^^^^^^
-TO DO
+The utilization of social media platforms for public health surveillance has become an integral part of Event-based Surveillance (EBS) systems. Social media [8]_ [9]_, in particular, offers a vast amount of user-generated content that can be analyzed to identify emerging health concerns. This data includes posts, tweets, and other forms of digital communication that can provide early indicators of public health issues, such as the spread of infectious diseases 
 
+Despite its potential, there are significant challenges associated with using social media data for health surveillance. Data integrity and accuracy are major concerns, as the information shared on these platforms may be unreliable or false. Additionally, noise filtration is necessary to eliminate irrelevant content and focus on pertinent information. Sampling bias is another critical issue, as the demographics of social media users do not represent the entire population, leading to potential biases in the data. Advanced technological tools like natural language processing, machine learning, and big data analytics are essential for transforming unstructured social media data into actionable insights. Integrating this data with traditional health surveillance methods can enhance the overall effectiveness of public health monitoring systems.
 
 Data access information
 ^^^^^^^^^^^^^^^^^^^^^^^
@@ -198,8 +199,8 @@ Expected availability in July 2024.
 .. [5] Bento, A. I., Nguyen, T., Wing, C., Lozano-Rojas, F., Ahn, Y. Y., & Simon, K. (2020). Evidence from internet search data shows information-seeking responses to news of local COVID-19 cases. Proceedings of the National Academy of Sciences of the United States of America, 117(21), 11220–11222. https://doi.org/10.1073/PNAS.2005335117/SUPPL_FILE/PNAS.2005335117.SD01.XLSX
 .. [6] Google Trends. (n.d.). Retrieved May 26, 2024, from https://trends.google.com.br/trends/
 .. [7] pytrends · PyPI. (n.d.). Retrieved May 26, 2024 from https://pypi.org/project/pytrends/
-.. [8] TO DO
-.. [9] TO DO
+.. [8] Bour, C., Ahne, A., Schmitz, S., Perchoux, C., Dessenne, C., & Fagherazzi, G. (2021). The use of social media for health research purposes: scoping review. J Med Internet Res, 23(5), e25736. https://doi.org/10.2196/25736.
+.. [9] Wilson, A. E., Lehmann, C. U., Saleh, S. N., Hanna, J., & Medford, R. J. (2021). Social media: A new tool for outbreak surveillance. Antimicrobial Stewardship & Healthcare Epidemiology, 1(1), e50. https://doi.org/10.1017/ASH.2021.225.
 .. [10] X API | Products | Twitter Developer Platform. (n.d.). Retrieved May 26, 2024, from https://developer.x.com/en/products/twitter-api.
 .. [11] Statista - The Statistics Portal for Market Data, Market Research and Market Studies. (n.d.). Retrieved May 26, 2024, from https://www.statista.com/.
 .. [12] Tweepy Documentation — tweepy 4.14.0 documentation. (n.d.). Retrieved May 26, 2024, from https://docs.tweepy.org/en/stable/.
