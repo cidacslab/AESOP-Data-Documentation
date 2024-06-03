@@ -125,6 +125,11 @@ Methods of data collection
 ^^^^^^^^^^^^^^^^^^^^^^^^^^
 To access the X (Twitter) API, the Python library Tweepy was used [12]_. Using this library, daily messages in Portuguese are obtained for a set of words and expressions associated with respiratory syndrome. For example, "cough," "fever," "shortness of breath," "sore throat," "headache," "diarrhea," "vomiting," "runny nose," etc. If a message contains one or more of these terms, it is captured and temporarily stored in a transient area for further processing, thus generating a file per day.
 
+The next step in processing the messages is to convert the messages to compressed .parquet format and store them in the RAW zone of the HPC cluster used in the project.
+
+Subsequently, the messages are processed using Natural Language Processing (NLP), being tokenized and validated. One of the crucial processes is the transformation of words and expressions into columns, turning them into a variable that will have the value TRUE when the sentence is present in the tokenized message.
+
+It is also necessary to geocode the messages, as most of them are not geolocated because the option to capture this information is usually disabled by the platform users, as observed in the captures. Therefore, it is necessary to use the location provided by the user, which is often imprecise and arbitrary (e.g., "Brazil," "Salvador, Bahia," "Narnia"). For this geolocation, the Google Maps API is used to geocode the messages based on the location information provided by the users of platform X.
 
 Data-specific information
 ^^^^^^^^^^^^^^^^^^^^^^^^^
