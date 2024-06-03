@@ -27,7 +27,7 @@ Thus, search engines, while secondary, play a critical contextual role in the ov
 
 Data access information
 ^^^^^^^^^^^^^^^^^^^^^^^
-The primary data source used is Google Trends [TO DO], which monitors the search trends of expressions from Google's search engine and establishes a trend indicator for these expressions. Google Trends provides valuable insights into what people are searching for over time, allowing for the identification of patterns and spikes in search queries related to various topics, including public health concerns.
+The primary data source used is Google Trends [6]_, which monitors the search trends of expressions from Google's search engine and establishes a trend indicator for these expressions. Google Trends provides valuable insights into what people are searching for over time, allowing for the identification of patterns and spikes in search queries related to various topics, including public health concerns.
 
 By analyzing this data, we can gain an understanding of the public's interest and awareness regarding specific health issues, which can serve as an early warning system for potential outbreaks or health threats. The data from Google Trends is particularly useful because it is updated in real-time and can be accessed independently of the health system, offering a wide-reaching and timely perspective on emerging public health trends.
 
@@ -37,7 +37,7 @@ Overall, the use of Google Trends as a data source provides a valuable tool for 
 
 Methods of data collection
 ^^^^^^^^^^^^^^^^^^^^^^^^^^
-To obtain data from the Google Trends API, we used the Python library pytrends [6]_. Queries were conducted with information about the words/expressions (search terms) of interest, the period, and the states from which we desired data. The search terms were classified into three groups: symptoms, diseases, and medications. All terms were selected with the aim of identifying group syndrome interests, for example:
+To obtain data from the Google Trends API, we used the Python library pytrends [7]_. Queries were conducted with information about the words/expressions (search terms) of interest, the period, and the states from which we desired data. The search terms were classified into three groups: symptoms, diseases, and medications. All terms were selected with the aim of identifying group syndrome interests, for example:
 
       * Symptoms: cough, sore throat, shortness of breath, runny nose, etc.
       * Diseases: flu, cold, COVID-19, etc.
@@ -190,9 +190,10 @@ Expected availability in July 2024.
 .. [3] TO DO
 .. [4] TO DO
 .. [5] Bento, A. I., Nguyen, T., Wing, C., Lozano-Rojas, F., Ahn, Y. Y., & Simon, K. (2020). Evidence from internet search data shows information-seeking responses to news of local COVID-19 cases. Proceedings of the National Academy of Sciences of the United States of America, 117(21), 11220–11222. https://doi.org/10.1073/PNAS.2005335117/SUPPL_FILE/PNAS.2005335117.SD01.XLSX
-.. [6] pytrends · PyPI. (n.d.). Retrieved May 26, 2024 from https://pypi.org/project/pytrends/
-.. [7] X API | Products | Twitter Developer Platform. (n.d.). Retrieved May 26, 2024, from https://developer.x.com/en/products/twitter-api.
-.. [8] Statista - The Statistics Portal for Market Data, Market Research and Market Studies. (n.d.). Retrieved May 26, 2024, from https://www.statista.com/.
+.. [6] Google Trends. (n.d.). Retrieved May 26, 2024, from https://trends.google.com.br/trends/
+.. [7] pytrends · PyPI. (n.d.). Retrieved May 26, 2024 from https://pypi.org/project/pytrends/
+.. [8] X API | Products | Twitter Developer Platform. (n.d.). Retrieved May 26, 2024, from https://developer.x.com/en/products/twitter-api.
+.. [9] Statista - The Statistics Portal for Market Data, Market Research and Market Studies. (n.d.). Retrieved May 26, 2024, from https://www.statista.com/.
 
 
 
