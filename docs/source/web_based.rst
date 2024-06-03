@@ -138,8 +138,9 @@ The original messages are preserved and maintained in the RAW zone of the projec
 
 Limitations of the dataset
 ^^^^^^^^^^^^^^^^^^^^^^^^^^
-TO DO
+The limitations are similar to those identified for web-based data. However, to achieve greater accuracy in messages from platform X, it is necessary to perform geocoding on the messages, which results in a success rate of approximately 3% of the captured messages. Thus, we are initially using data from the capital cities for validation. For other cities that are not in urban areas or are in regions with fewer resources, the number of messages is insufficient to generate a series capable of contributing to the analyses.
 
+Another limitation considered is the change in licensing for platform X (formerly Twitter), which has become a significant cost. This is being evaluated to identify its uses and potential before acquiring it for use in routine syndrome surveillance, such as in the Aesop project.
 
 Data dictionary
 ^^^^^^^^^^^^^^^
