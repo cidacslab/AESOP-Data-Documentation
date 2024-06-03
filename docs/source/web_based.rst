@@ -37,7 +37,7 @@ Overall, the use of Google Trends as a data source provides a valuable tool for 
 
 Methods of data collection
 ^^^^^^^^^^^^^^^^^^^^^^^^^^
-To obtain data from the Google Trends API, we used the Python library pytrends [TO DO]. Queries were conducted with information about the words/expressions (search terms) of interest, the period, and the states from which we desired data. The search terms were classified into three groups: symptoms, diseases, and medications. All terms were selected with the aim of identifying group syndrome interests, for example:
+To obtain data from the Google Trends API, we used the Python library pytrends [6]_. Queries were conducted with information about the words/expressions (search terms) of interest, the period, and the states from which we desired data. The search terms were classified into three groups: symptoms, diseases, and medications. All terms were selected with the aim of identifying group syndrome interests, for example:
 
       * Symptoms: cough, sore throat, shortness of breath, runny nose, etc.
       * Diseases: flu, cold, COVID-19, etc.
@@ -187,9 +187,12 @@ Expected availability in July 2024.
 
 .. [1] Milinovich, G. J., Williams, G. M., Clements, A. C. A., & Hu, W. (2014). Internet-based surveillance systems for monitoring emerging infectious diseases. Lancet Infect Dis, 14(2), 160–168. https://doi.org/10.1016/s1473-3099(13)70244-5
 .. [2] Wilson, A. E., Lehmann, C. U., Saleh, S. N., Hanna, J., & Medford, R. J. (2021). Social media: A new tool for outbreak surveillance. Antimicrobial Stewardship and Healthcare Epidemiology, 1(1). https://doi.org/10.1017/ASH.2021.225.
+.. [3] TO DO
+.. [4] TO DO
 .. [5] Bento, A. I., Nguyen, T., Wing, C., Lozano-Rojas, F., Ahn, Y. Y., & Simon, K. (2020). Evidence from internet search data shows information-seeking responses to news of local COVID-19 cases. Proceedings of the National Academy of Sciences of the United States of America, 117(21), 11220–11222. https://doi.org/10.1073/PNAS.2005335117/SUPPL_FILE/PNAS.2005335117.SD01.XLSX
-.. [n] X API | Products | Twitter Developer Platform. (n.d.). Retrieved May 26, 2024, from https://developer.x.com/en/products/twitter-api.
-.. [n] Statista - The Statistics Portal for Market Data, Market Research and Market Studies. (n.d.). Retrieved May 26, 2024, from https://www.statista.com/.
+.. [6] pytrends · PyPI. (n.d.). Retrieved May 26, 2024 from https://pypi.org/project/pytrends/
+.. [7] X API | Products | Twitter Developer Platform. (n.d.). Retrieved May 26, 2024, from https://developer.x.com/en/products/twitter-api.
+.. [8] Statista - The Statistics Portal for Market Data, Market Research and Market Studies. (n.d.). Retrieved May 26, 2024, from https://www.statista.com/.
 
 
 
