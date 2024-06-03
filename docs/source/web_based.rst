@@ -19,9 +19,9 @@ Search Engine
 
 Description
 ^^^^^^^^^^^
-Search engines are considered in studies as a promising source for the early detection of events that may represent potential public health issues [TO DO]. Within the scope of the Aesop project, search engines serve as a "side-car" data source, meaning they require another primary source to guide the alert. Search engines such as Google, Bing, Yahoo, and others are valuable for understanding population search patterns, which can indicate trends of interest related to health topics that contribute to epidemiological surveillance.
+Search engines are considered in studies as a promising source for the early detection of events that may represent potential public health issues [3]_ [4]_. Within the scope of the Aesop project, search engines serve as a "side-car" data source, meaning they require another primary source to guide the alert. Search engines such as Google, Bing, Yahoo, and others are valuable for understanding population search patterns, which can indicate trends of interest related to health topics that contribute to epidemiological surveillance.
 
-On one hand, this is an opportune process that can aid decision-making by enabling the issuance of an alert when something outside the norm (an anomaly) is detected [TO DO]. Search engine data can reveal real-time insights into public health concerns by identifying spikes in search queries for symptoms, diseases, or other health-related topics. This proactive approach allows for a more responsive and dynamic public health monitoring system.
+On one hand, this is an opportune process that can aid decision-making by enabling the issuance of an alert when something outside the norm (an anomaly) is detected [5]_. Search engine data can reveal real-time insights into public health concerns by identifying spikes in search queries for symptoms, diseases, or other health-related topics. This proactive approach allows for a more responsive and dynamic public health monitoring system.
 
 Thus, search engines, while secondary, play a critical contextual role in the overall surveillance framework, providing a complementary layer of data that enhances the ability to detect and respond to public health threats more swiftly.
 
@@ -187,6 +187,7 @@ Expected availability in July 2024.
 
 .. [1] Milinovich, G. J., Williams, G. M., Clements, A. C. A., & Hu, W. (2014). Internet-based surveillance systems for monitoring emerging infectious diseases. Lancet Infect Dis, 14(2), 160–168. https://doi.org/10.1016/s1473-3099(13)70244-5
 .. [2] Wilson, A. E., Lehmann, C. U., Saleh, S. N., Hanna, J., & Medford, R. J. (2021). Social media: A new tool for outbreak surveillance. Antimicrobial Stewardship and Healthcare Epidemiology, 1(1). https://doi.org/10.1017/ASH.2021.225.
+.. [5] Bento, A. I., Nguyen, T., Wing, C., Lozano-Rojas, F., Ahn, Y. Y., & Simon, K. (2020). Evidence from internet search data shows information-seeking responses to news of local COVID-19 cases. Proceedings of the National Academy of Sciences of the United States of America, 117(21), 11220–11222. https://doi.org/10.1073/PNAS.2005335117/SUPPL_FILE/PNAS.2005335117.SD01.XLSX
 .. [n] X API | Products | Twitter Developer Platform. (n.d.). Retrieved May 26, 2024, from https://developer.x.com/en/products/twitter-api.
 .. [n] Statista - The Statistics Portal for Market Data, Market Research and Market Studies. (n.d.). Retrieved May 26, 2024, from https://www.statista.com/.
 
