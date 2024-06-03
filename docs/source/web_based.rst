@@ -70,23 +70,23 @@ Data dictionary
 +---------------------+-------------------------------------------------------------+------------+------------------------------------------+
 | Field Name          | Description                                                 | Type       | Format Sample                            | 
 +=====================+====================================================+========+============+==========================================+
-| DATE_CALENDAR_WEEK  | Date representing the first day of the week (Sunday)        | Number     | TO DO                                    | 
+| DATE_CALENDAR_WEEK  | Date representing the first day of the week (Sunday)        | string     | 2023-12-24                               | 
 +---------------------+-------------------------------------------------------------+------------+------------------------------------------+
-| TREND_INDICATOR     | Indicator with the search trend for the term in the period  | String     | TO DO                                    |
+| TREND_INDICATOR     | Indicator with the search trend for the term in the period  | string     | 58                                       |
 +---------------------+-------------------------------------------------------------+------------+------------------------------------------+
-| IS_PARTIAL          | Whether the data is still partial for the week in question  | String     | TO DO                                    | 
+| IS_PARTIAL          | Whether the data is still partial for the week in question  | string     | False                                    | 
 +---------------------+-------------------------------------------------------------+------------+------------------------------------------+
-| SEARCH_ENGINE       | What is the search engine                                   | String     | TO DO                                    |  
+| SEARCH_ENGINE       | What is the search engine                                   | string     | GOOGLE                                   |  
 +---------------------+-------------------------------------------------------------+------------+------------------------------------------+
-| SEARCH_KEYWORD      | Keyword or expression searched                              | String     | TO DO                                    | 
+| SEARCH_KEYWORD      | Keyword or expression searched                              | string     | DOR DE GARGANTA                          | 
 +---------------------+-------------------------------------------------------------+------------+------------------------------------------+
-| UF                  | State code                                                  | String     | TO DO                                    |
+| UF                  | State code                                                  | string     | BR-SE                                    |
 +---------------------+-------------------------------------------------------------+------------+------------------------------------------+
-| MODEL_CAPTURE       | Version of the searched words and expressions               | String     | TO DO                                    | 
+| MODEL_CAPTURE       | Version of the searched words and expressions               | string     | V1                                       | 
 +---------------------+-------------------------------------------------------------+------------+------------------------------------------+
-| TIME_FRAME          | Time interval                                               | String     | TO DO                                    | 
+| TIME_FRAME          | Time interval                                               | string     | TODAY 5-Y                                | 
 +---------------------+-------------------------------------------------------------+------------+------------------------------------------+
-| CAPTURE_DATE        | Date of capture                                             | Number     | TO DO                                    | 
+| CAPTURE_DATE        | Date of capture                                             | string     | 2024-01-22                               | 
 +---------------------+-------------------------------------------------------------+------------+------------------------------------------+
 
 
