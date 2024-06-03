@@ -133,7 +133,7 @@ It is also necessary to geocode the messages, as most of them are not geolocated
 
 Data-specific information
 ^^^^^^^^^^^^^^^^^^^^^^^^^
-TO DO
+The original messages are preserved and maintained in the RAW zone of the project's data lake, and the processed messages are made available for use by the project groups in the shared zone of the HPC cluster. The messages captured for the set of sentences related to respiratory syndrome are less than 1 MB in size per day of capture, in parquet.gzip format.
 
 
 Limitations of the dataset
