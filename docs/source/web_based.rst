@@ -116,14 +116,14 @@ TO DO
 
 Data access information
 ^^^^^^^^^^^^^^^^^^^^^^^
-Access to Twitter data was initially achieved through an application using the free version of the Twitter API. When Twitter became X, it was necessary to purchase the API [TO DO] to filter messages containing a specific set of sentences. The current Twitter, now X, is one of the most widely used social networks in the world. Brazil ranks sixth globally in terms of X users, with 22 million users [TO DO].
+Access to Twitter data was initially achieved through an application using the free version of the Twitter API. When Twitter became X, it was necessary to purchase the API [10]_ to filter messages containing a specific set of sentences. The current Twitter, now X, is one of the most widely used social networks in the world. Brazil ranks sixth globally in terms of X users, with 22 million users [11]_.
 
 Consolidated data from public messages on X are processed while preserving the private information of individuals. Only aggregated information with sentence frequencies is made available.
 
 
 Methods of data collection
 ^^^^^^^^^^^^^^^^^^^^^^^^^^
-To access the X (Twitter) API, the Python library Tweepy was used [TO DO]. Using this library, daily messages in Portuguese are obtained for a set of words and expressions associated with respiratory syndrome. For example, "cough," "fever," "shortness of breath," "sore throat," "headache," "diarrhea," "vomiting," "runny nose," etc. If a message contains one or more of these terms, it is captured and temporarily stored in a transient area for further processing, thus generating a file per day.
+To access the X (Twitter) API, the Python library Tweepy was used [12]_. Using this library, daily messages in Portuguese are obtained for a set of words and expressions associated with respiratory syndrome. For example, "cough," "fever," "shortness of breath," "sore throat," "headache," "diarrhea," "vomiting," "runny nose," etc. If a message contains one or more of these terms, it is captured and temporarily stored in a transient area for further processing, thus generating a file per day.
 
 
 Data-specific information
@@ -192,10 +192,11 @@ Expected availability in July 2024.
 .. [5] Bento, A. I., Nguyen, T., Wing, C., Lozano-Rojas, F., Ahn, Y. Y., & Simon, K. (2020). Evidence from internet search data shows information-seeking responses to news of local COVID-19 cases. Proceedings of the National Academy of Sciences of the United States of America, 117(21), 11220–11222. https://doi.org/10.1073/PNAS.2005335117/SUPPL_FILE/PNAS.2005335117.SD01.XLSX
 .. [6] Google Trends. (n.d.). Retrieved May 26, 2024, from https://trends.google.com.br/trends/
 .. [7] pytrends · PyPI. (n.d.). Retrieved May 26, 2024 from https://pypi.org/project/pytrends/
-.. [8] X API | Products | Twitter Developer Platform. (n.d.). Retrieved May 26, 2024, from https://developer.x.com/en/products/twitter-api.
-.. [9] Statista - The Statistics Portal for Market Data, Market Research and Market Studies. (n.d.). Retrieved May 26, 2024, from https://www.statista.com/.
-
-
+.. [8] TO DO
+.. [9] TO DO
+.. [10] X API | Products | Twitter Developer Platform. (n.d.). Retrieved May 26, 2024, from https://developer.x.com/en/products/twitter-api.
+.. [11] Statista - The Statistics Portal for Market Data, Market Research and Market Studies. (n.d.). Retrieved May 26, 2024, from https://www.statista.com/.
+.. [12] Tweepy Documentation — tweepy 4.14.0 documentation. (n.d.). Retrieved May 26, 2024, from https://docs.tweepy.org/en/stable/.
 
 **Contributors**
 
