@@ -194,8 +194,8 @@ Expected availability in July 2024.
 
 .. [1] Milinovich, G. J., Williams, G. M., Clements, A. C. A., & Hu, W. (2014). Internet-based surveillance systems for monitoring emerging infectious diseases. Lancet Infect Dis, 14(2), 160–168. https://doi.org/10.1016/s1473-3099(13)70244-5
 .. [2] Wilson, A. E., Lehmann, C. U., Saleh, S. N., Hanna, J., & Medford, R. J. (2021). Social media: A new tool for outbreak surveillance. Antimicrobial Stewardship and Healthcare Epidemiology, 1(1). https://doi.org/10.1017/ASH.2021.225.
-.. [3] TO DO
-.. [4] TO DO
+.. [3] Rabiolo, A., Alladio, E., Morales, E., McNaught, A. I., Bandello, F., Afifi, A. A., & Marchese, A. (2021). Forecasting the COVID-19 Epidemic by Integrating Symptom Search Behavior Into Predictive Models: Infoveillance Study. Journal of Medical Internet Research, 23(8). https://doi.org/10.2196/28876.
+.. [4] Wang, D., Lang, J. C., & Chen, Y. H. (2024). Assessment of using Google Trends for real-time monitoring of infectious disease outbreaks: a measles case study. Scientific Reports, 14(1). https://doi.org/10.1038/S41598-024-60120-8.
 .. [5] Bento, A. I., Nguyen, T., Wing, C., Lozano-Rojas, F., Ahn, Y. Y., & Simon, K. (2020). Evidence from internet search data shows information-seeking responses to news of local COVID-19 cases. Proceedings of the National Academy of Sciences of the United States of America, 117(21), 11220–11222. https://doi.org/10.1073/PNAS.2005335117/SUPPL_FILE/PNAS.2005335117.SD01.XLSX
 .. [6] Google Trends. (n.d.). Retrieved May 26, 2024, from https://trends.google.com.br/trends/
 .. [7] pytrends · PyPI. (n.d.). Retrieved May 26, 2024 from https://pypi.org/project/pytrends/
