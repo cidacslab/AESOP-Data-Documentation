@@ -48,6 +48,7 @@ Due to the different sampling characteristics of each data source, the informati
 - Technical presentations on the methodology by Fabio Hochleitner, Meteorologist, and member of the AESOP team:
 a. Monitoring Bioclimatological Parameters for Environmental Analysis Related to Respiratory Diseases: https://youtu.be/twGVPPHdcvQ
 b. Bioclimate data: https://youtu.be/TDNtPxcjnO4
+c. Data Dictionary: https://fiocruzbr.sharepoint.com/:x:/r/sites/HPC-AESOP-FiocruzBA/Documentos%20Compartilhados/Governan%C3%A7a%20e%20curadoria%20de%20dados/Mapeamento%20dos%20dados%20-%20Documenta%C3%A7%C3%A3o/Metadata.xlsx?d=w39ad84c743fe4b3db22e3d267108155a&csf=1&web=1&e=XS7uHN
  
 - Slides, graphs and maps:
 a. Figure 1: https://drive.google.com/open?id=1vBN9EHgCXw0HcFQ7Bcy-IWprY7r2I90O&usp=drive_fs 
