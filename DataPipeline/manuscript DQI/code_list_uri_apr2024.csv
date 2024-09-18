@@ -1,0 +1,51 @@
+﻿Type;Code;Description
+CIAP;A03;Fever
+CIAP;R01;Pain attributed to respiratory tract
+CIAP;R02;Difficulty breathing, dyspnea
+CIAP;R03;Noisy breathing
+CIAP;R04;Other respiratory problems
+CIAP;R05;Cough
+CIAP;R07;Sneeze/Nasal Congestion
+CIAP;R08;Other Nasal Signs/Symptoms
+CIAP;R21;Throat signs/symptoms
+CIAP;R23;Voice signs/symptoms
+CIAP;R25;Abnormal expectoration/mucus
+CIAP;R29;Other signs/symptoms of respiratory tract, others
+CIAP;R71;Convulsive cough
+CIAP;R74;Acute Upper Respiratory Tract Infection (URI)
+CIAP;R75;Chronic/Acute Sinusitis
+CIAP;R76;Acute Tonsillitis
+CIAP;R77;Acute Laryngitis/Tracheitis
+CIAP;R78;Acute Bronchitis/Bronchiolitis
+CIAP;R80;Influenza
+CIAP;R81;Pneumonia
+CIAP;R83;Other Respiratory Infections
+CIAP;R99;Other Respiratory Diseases
+CID;J00;Acute Nasopharyngitis [Common Cold]
+CID;J01;Acute sinusitis
+CID;J02;Acute Pharyngitis
+CID;J03;Acute Tonsillitis
+CID;J04;Acute Laryngitis and Tracheitis
+CID;J06;Acute Upper Respiratory Tract Infections of Multiple and Unspecified Sites
+CID;J09;Influenza Due to Identified Avian Influenza Virus
+CID;J10;Influenza Due to Other Identified Influenza Virus
+CID;J11;Influenza Due to Unidentified Influenza Virus
+CID;J12;Viral pneumonia, not elsewhere classified
+CID;J13;Pneumonia due to Streptococcus pneumoniae
+CID;J14;Pneumonia due to Haemophilus influenzae
+CID;J15;Bacterial pneumonia, not elsewhere classified
+CID;J16;Pneumonia due to other infectious organisms, not elsewhere classified
+CID;J17;Pneumonia in diseases classified elsewhere
+CID;J18;Pneumonia, organism unspecified
+CID;J20;Acute bronchitis
+CID;J21;Acute bronchiolitis
+CID;J22;Unspecified acute lower respiratory infection
+CID;J80;Adult respiratory distress syndrome
+CID;R05;Cough
+CID;R06;Abnormalities of breathing
+CID;R07;Pain in throat and chest* (Exclude R072)
+CID;R43;Disorders of smell and taste
+CID;R50;Fever of other and unknown origin
+CID;U07;Emergency use of U07
+CID;B34;Viral infection of unspecified site
+CID;B97;Viral agents as the cause of diseases classified to other chapters
