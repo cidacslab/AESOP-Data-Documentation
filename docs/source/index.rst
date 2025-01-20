@@ -33,7 +33,7 @@ Contents
    surveillance
    biological
    pharmaceutical
-   social_media
+   web_based
    social_economical
    environmental
    human_mobility
