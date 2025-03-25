@@ -1,0 +1,8 @@
+Terminologies and Coding Standards in Brazilian PHC
+
+CIAP stands for Classificação Internacional da Atenção Primária, Portuguese for International Classification of Primary Care.
+We used ICPC-2, which is the version currently in use by the Brazilian Primary Health Care System.
+
+CID stands for Classificação Internacional de Doenças, Portuguese for International Classification of Disease. We used ICD-10 version 2008, which is the version currently in use by the Brazilian Primary Health Care and Brazilian National Surveillance systems.
+
+ABP is the coding scheme adopted for annotating the reason of encounter in Brazilian Primary Health Care facilities with no Electronic Health Record in place.
