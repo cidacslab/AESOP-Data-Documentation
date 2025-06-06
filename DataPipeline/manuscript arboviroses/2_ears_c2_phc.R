@@ -93,21 +93,6 @@ ears_c2_8w1 <- classify_ears(
 )
 
 
-# Run EARS-C2 baseline = 8 alpha = 0.2 -------------------------------------
-
-
-ears_c2_8w2 <- classify_ears(
-  arbov,
-  t = week,
-  data_count = atend_arbov,
-  all_count = atend_totais,
-  B = 11,
-  baseline_ears = 8,
-  alpha_ears = 0.2,
-  method_ears = "C2"
-)
-
-
 # Run EARS-C2 baseline = 12 alpha = 0.001 ----------------------------------
 
 
@@ -141,29 +126,14 @@ ears_c2_12w05 <- classify_ears(
 # Run EARS-C2 baseline = 12 alpha = 0.1 ------------------------------------
 
 
-ears_c2_12w001 <- classify_ears(
+ears_c2_12w1 <- classify_ears(
   arbov,
   t = week,
   data_count = atend_arbov,
   all_count = atend_totais,
   B = 15,
   baseline_ears = 12,
-  alpha_ears = 0.001,
-  method_ears = "C2"
-)
-
-
-# Run EARS-C2 baseline = 12 alpha = 0.2 ------------------------------------
-
-
-ears_c2_12w2 <- classify_ears(
-  arbov,
-  t = week,
-  data_count = atend_arbov,
-  all_count = atend_totais,
-  B = 15,
-  baseline_ears = 12,
-  alpha_ears = 0.2,
+  alpha_ears = 0.1,
   method_ears = "C2"
 )
 
@@ -176,22 +146,18 @@ ears_list <- c(
                ears_c2_8w001,
                ears_c2_8w05,
                ears_c2_8w1,
-               ears_c2_8w2,
                ears_c2_12w001,
                ears_c2_12w05,
-               ears_c2_12w1,
-               ears_c2_12w2
+               ears_c2_12w1
                )
 
 names(ears_list) <- c(
                       "ears_c2_8w001",
                       "ears_c2_8w05",
                       "ears_c2_8w1",
-                      "ears_c2_8w2",
                       "ears_c2_12w001",
                       "ears_c2_12w05",
-                      "ears_c2_12w1",
-                      "ears_c2_12w2"
+                      "ears_c2_12w1"
                       )
 
 

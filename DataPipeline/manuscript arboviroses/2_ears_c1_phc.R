@@ -93,21 +93,6 @@ ears_c1_8w1 <- classify_ears(
 )
 
 
-# Run EARS-C1 baseline = 8 alpha = 0.2 -------------------------------------
-
-
-ears_c1_8w2 <- classify_ears(
-  arbov,
-  t = week,
-  data_count = atend_arbov,
-  all_count = atend_totais,
-  B = 9,
-  baseline_ears = 8,
-  alpha_ears = 0.2,
-  method_ears = "C1"
-)
-
-
 # Run EARS-C1 baseline = 12 alpha = 0.001 ----------------------------------
 
 
@@ -153,21 +138,6 @@ ears_c1_12w1 <- classify_ears(
 )
 
 
-# Run EARS-C1 baseline = 12 alpha = 0.2 ------------------------------------
-
-
-ears_c1_12w2 <- classify_ears(
-  arbov,
-  t = week,
-  data_count = atend_arbov,
-  all_count = atend_totais,
-  B = 13,
-  baseline_ears = 12,
-  alpha_ears = 0.2,
-  method_ears = "C1"
-)
-
-
 # 3 - Export the output ---------------------------------------------------
 
 
@@ -175,22 +145,18 @@ ears_list <- c(
                ears_c1_8w001,
                ears_c1_8w05,
                ears_c1_8w1,
-               ears_c1_8w2,
                ears_c1_12w001,
                ears_c1_12w05,
-               ears_c1_12w1,
-               ears_c1_12w2
+               ears_c1_12w1
                )
 
 names(ears_list) <- c(
                       "ears_c1_8w001",
                       "ears_c1_8w05",
                       "ears_c1_8w1",
-                      "ears_c1_8w2",
                       "ears_c1_12w001",
                       "ears_c1_12w05",
-                      "ears_c1_12w1",
-                      "ears_c1_12w2"
+                      "ears_c1_12w1"
                       )
 
 
@@ -200,3 +166,6 @@ for(g in 1 : length(ears_list)) {
   file_path <- paste0(output_dir, "2_", names(ears_list)[g], "_phc.parquet")
   arrow::write_parquet(ears_list[[g]], file_path)
 };rm(g)
+
+
+#end

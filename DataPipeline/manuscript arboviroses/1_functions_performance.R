@@ -126,6 +126,7 @@ events_caught <- function(df_event_overlaps){
     data.frame(num_events=NA,
                num_caught=NA,
                perc_caught=NA,
+               perc_no_caught=NA,
                perc_missed=NA)
   }else{
   df_event_overlaps %>% 
@@ -133,8 +134,10 @@ events_caught <- function(df_event_overlaps){
     do.call(rbind, .) %>% 
     
     summarize(num_events = n(),
-              num_caught = sum(caught),
-              perc_caught = num_caught / num_events * 100,
+              num_caught = sum(caught), #VP
+              num_no_caugth = sum(caught == F), #FN 
+              perc_caught = num_caught / num_events * 100, #% VP
+              perc_no_caught = num_no_caugth / num_caught * 100, #FN
               perc_missed = 100 - perc_caught)
   }
 }  
@@ -235,36 +238,38 @@ calculate_alarm_overlaps <- function(algo_alarms, algo_events){
 # alarms_events -----------------------------------------------------------
 
 
-alarms_events <- function(df_alarm_overlaps){
+alarms_events <- function(df_alarm_overlaps) {
   
-  alarm_over_bind <- df_alarm_overlaps %>% 
-
-    do.call(rbind, .)
+  # Unir os data.frames de forma segura
+  alarm_over_bind <- bind_rows(df_alarm_overlaps)
   
-
+  # Se houver pelo menos um alarme, calcular métricas
   if (nrow(alarm_over_bind) > 0) {
-    alarm_event_results <- df_alarm_overlaps %>% 
-
-      do.call(rbind, .) %>% 
-
-      summarize(num_alarms = n(),
-                num_truepos = sum(with_event),
-                perc_truepos = num_truepos / num_alarms * 100,
-                perc_falsepos = 100 - perc_truepos) 
+    
+    alarm_event_results <- alarm_over_bind %>%
+      summarize(
+        num_alarms = n(),
+        num_truepos = sum(with_event, na.rm = TRUE),  # VP
+        num_trueneg = sum(!with_event, na.rm = TRUE), # VN
+        perc_truepos = if_else(num_alarms > 0, num_truepos / num_alarms * 100, NA_real_),
+        perc_falsepos = if_else(num_alarms > 0, 100 - perc_truepos, NA_real_),
+        perc_trueneg = if_else(num_alarms > 0, num_trueneg / num_alarms * 100, NA_real_)
+      )
+    
   } else {
-
-    alarm_event_results <- df_alarm_overlaps %>% 
-
-      do.call(rbind, .) %>% 
-
-      summarize(num_alarms = NA_real_,
-                num_truepos = NA_real_,
-                perc_truepos = NA_real_,
-                perc_falsepos = NA_real_)
+    
+    # Caso sem dados, preencher com NA
+    alarm_event_results <- tibble(
+      num_alarms = NA_real_,
+      num_truepos = NA_real_,
+      num_trueneg = NA_real_,
+      perc_truepos = NA_real_,
+      perc_falsepos = NA_real_,
+      perc_trueneg = NA_real_
+    )
   }
   
-  alarm_event_results
-  
+  return(alarm_event_results)
 }
 
 

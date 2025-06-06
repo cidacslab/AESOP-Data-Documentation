@@ -3,15 +3,16 @@
 # Short description -------------------------------------------------------
 
 
-#This script creates a matrix using PHC and Dengue reported cases
+#This routine creates a matrix using PHC and Dengue reported cases
 #and ears results (warnings).
 
 #Population data: 
-#Fonte: IBGE. Diretoria de Pesquisas - DPE -  CoordenaÁ„o TÈcnica do Censo 
-#Demogr·fico - CTD
+#Fonte: IBGE. Diretoria de Pesquisas - DPE -  Coordena√ß√£o T√©cnica do Censo 
+#Demogr√°fico - CTD
 
 #Download: https://www.ibge.gov.br/estatisticas/sociais/populacao/22827-censo-demografico-2022.html?edicao=35938&t=downloads
 #Last accessed on: March 23, 2024.
+
 
 # Packages- -----------------------------------------------------------------
 
@@ -191,7 +192,7 @@ for(e in 1 : length(ears_list)){
                               substr(co_ibge, 1, 1) == "3" ~ "Sudeste",
                               substr(co_ibge, 1, 1) == "4" ~ "Sul",
                               substr(co_ibge, 1, 1) == "5" ~ "Centro-Oeste",
-                              TRUE ~ "Outra regi„o"))
+                              TRUE ~ "Outra regi?o"))
 };rm(e)
 
 
@@ -211,7 +212,7 @@ pop$co_ibge <- substr(pop$co_ibge,
 
 pop$co_ibge <- as.integer(pop$co_ibge)
 
-arbov <- arrow::read_parquet("path/aps_sinan_2017_202411_update.parquet")
+arbov <- arrow::read_parquet("path/data.parquet")
 
 arbov <- arbov %>%
   mutate(week = aweek::get_date(week = epiweek, 

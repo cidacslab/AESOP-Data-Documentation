@@ -26,7 +26,7 @@ source("functions_paper.R")
 
 
 setwd("path")
-result_main <- arrow::read_parquet("3_.parquet")
+result_main <- arrow::read_parquet("3_data.parquet")
 
 
 # Set data ---------------------------------------------------------------
